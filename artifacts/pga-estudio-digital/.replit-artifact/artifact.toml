@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "PGA Estudio Digital"
+description = "Landing page profesional para PGA Estudio Digital, un estudio web cercano para autónomos, pequeños negocios y PYMES."
+version = "1.0.0"
+id = "artifacts/pga-estudio-digital"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 19411
+
+[services.development]
+run = "pnpm --filter @workspace/pga-estudio-digital run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/pga-estudio-digital", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/pga-estudio-digital/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "19411"
+BASE_PATH = "/"
