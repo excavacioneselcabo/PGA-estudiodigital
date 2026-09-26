@@ -1,0 +1,602 @@
+Quiero hacer una evolución importante del diseño actual de PGA Estudio Digital.
+
+NO quiero crear otra web distinta desde cero y NO quiero volver a cambiar de dirección estética después de esto.
+
+Ya hemos definido la identidad de marca definitiva de PGA y quiero que adaptes el proyecto actual a ella, conservando el contenido y las secciones que funcionan, pero replanteando el lenguaje visual para conseguir exactamente la sensación que describo a continuación.
+
+========================
+IDENTIDAD DEFINITIVA DE PGA
+========================
+
+PGA Estudio Digital debe sentirse:
+
+PROFESIONAL + HUMANO + NATURAL + CERCANO + ACTUAL.
+
+Las emociones principales que debe transmitir son:
+
+1. CONFIANZA
+2. CALMA / TRANQUILIDAD
+3. IMPULSO
+
+Quiero que un autónomo, una PYME o el propietario de un pequeño negocio entre en la web y piense:
+
+“Esta persona va a entender mi negocio.”
+“Puedo confiarle mi proyecto.”
+“Me lo van a poner fácil.”
+“Mi negocio puede verse mucho más profesional.”
+“Quiero avanzar con esto.”
+
+No quiero una agencia tecnológica fría.
+No quiero una web excesivamente corporativa.
+No quiero una plantilla genérica de agencia.
+No quiero una web experimental de diseñador.
+No quiero una copia visual de Excavaciones El Cabo.
+
+Quiero una marca digital con PERSONALIDAD PROPIA.
+
+========================
+REFERENCIA VISUAL
+========================
+
+Quiero acercar la web actual a una estética con:
+
+- titulares con mucha personalidad
+- composiciones modernas
+- buena jerarquía visual
+- buen uso del espacio
+- contraste
+- sensación de marca
+- pequeños detalles gráficos
+- diseño contemporáneo
+- ritmo entre secciones
+
+Pero NO quiero convertirla en una web excesivamente editorial.
+
+No abuses de:
+- serif
+- cursivas
+- titulares gigantes
+- números decorativos
+- líneas horizontales
+- bloques que parezcan páginas de revista
+
+Busco un PUNTO MEDIO:
+
+más carácter que una web corporativa tradicional,
+pero más claridad y naturalidad que un portfolio editorial.
+
+========================
+PALETA
+========================
+
+Mantén la identidad:
+
+- ciruela
+- lavanda
+- crema / blanco roto
+- tonos neutros claros
+
+Pero cambia cómo se utilizan.
+
+Los fondos CLAROS deben dominar la web.
+
+El ciruela debe aportar:
+- identidad
+- contraste
+- botones
+- titulares
+- detalles
+
+El lavanda debe aportar:
+- calma
+- suavidad
+- diferenciación de secciones
+
+No quiero enormes bloques morados uno detrás de otro.
+
+La página debe sentirse más luminosa y tranquila.
+
+========================
+TIPOGRAFÍA
+========================
+
+Quiero una tipografía moderna con personalidad.
+
+Los titulares deben tener carácter, pero seguir siendo muy fáciles de leer.
+
+Puedes combinar dos familias tipográficas si mejora el diseño, pero evita que toda la identidad dependa de serif + cursiva.
+
+Utiliza cursiva únicamente como detalle muy puntual.
+
+Quiero una jerarquía clara:
+
+titular potente
+→ explicación corta
+→ llamada a la acción
+
+Los párrafos deben tener un tamaño cómodo y buen contraste.
+
+========================
+DISEÑO Y COMPOSICIÓN
+========================
+
+Quiero más personalidad visual que en la versión actual.
+
+No quiero que todas las secciones sigan:
+
+título
+texto
+imagen
+título
+texto
+imagen
+
+Crea ritmo.
+
+Alterna:
+- texto + imagen
+- imagen + texto
+- bloques centrados
+- mockups
+- pequeñas composiciones visuales
+- algún bloque de color
+- mucho espacio respirable
+
+Pero sin convertirlo en algo caótico.
+
+El usuario debe poder recorrer la página con tranquilidad.
+
+Aproximadamente quiero un equilibrio:
+
+50% información / 50% experiencia visual.
+
+No interpretes esto como dividir cada sección literalmente por la mitad.
+
+========================
+FOTOGRAFÍA
+========================
+
+ESTO ES MUY IMPORTANTE.
+
+Quiero imágenes MUCHO MÁS NATURALES.
+
+No quiero imágenes que parezcan generadas específicamente para combinar con la paleta.
+
+No quiero:
+- oficinas perfectas
+- paredes lavanda artificiales
+- escritorios preparados
+- personas mirando a cámara
+- sonrisas falsas
+- apretones de manos
+- poses corporativas
+- modelos que parezcan de stock
+- escenas futuristas
+- imágenes evidentes de IA
+
+Quiero fotografía de aspecto DOCUMENTAL.
+
+Ejemplos:
+
+- un autónomo trabajando realmente
+- una pequeña empresaria revisando algo en su portátil
+- una conversación natural sobre un proyecto
+- alguien enseñando su negocio
+- una persona viendo su nueva web
+- manos trabajando
+- pequeños negocios reales
+- situaciones cotidianas
+
+Luz natural.
+Gestos naturales.
+Imperfección controlada.
+Nada excesivamente preparado.
+
+Las imágenes deben transmitir:
+
+“esto podría ser mi negocio”.
+
+No repitas fotografías.
+
+Cada fotografía debe contar algo.
+
+========================
+EL MENSAJE DEBE SER MUY CLARO
+========================
+
+La web debe explicar rápidamente QUÉ HACE PGA.
+
+PGA crea y mejora páginas web para negocios.
+
+No quiero que el visitante necesite leer cinco párrafos para entenderlo.
+
+Utiliza:
+
+TITULARES CORTOS.
+TEXTOS CORTOS.
+IDEAS CLARAS.
+
+Evita jerga técnica.
+
+No quiero mensajes genéricos como:
+
+“Llevamos tu negocio al siguiente nivel.”
+
+Habla de cosas concretas:
+
+- verte profesional
+- explicar bien lo que haces
+- enseñar tus servicios
+- generar confianza
+- facilitar que contacten contigo
+- tener una web que funcione bien en móvil
+- disponer de una presencia digital que represente realmente tu negocio
+
+El protagonista de la web debe ser EL CLIENTE.
+
+PGA es quien le ayuda a conseguirlo.
+
+========================
+HERO
+========================
+
+Quiero que la primera pantalla tenga más fuerza visual y personalidad que la versión actual.
+
+Pero debe seguir transmitiendo calma.
+
+En pocos segundos debe quedar claro:
+
+QUÉ hacemos.
+PARA QUIÉN.
+QUÉ puede conseguir.
+
+No utilices Asturias.
+
+PGA está en Alicante.
+
+Pero tampoco quiero “Alicante” repetido constantemente.
+
+Menciónalo solamente cuando sea relevante.
+
+CTA principal:
+
+“Cuéntame tu proyecto”
+
+CTA secundario:
+
+“Ver proyectos”
+
+No quiero un enorme bloque morado ocupando toda la primera pantalla.
+
+Utiliza composición, tipografía, imagen y espacio para crear impacto.
+
+========================
+CONSERVAR ESTA IDEA
+========================
+
+Mantén:
+
+“No necesitas parecer una gran empresa.
+Necesitas verte como el negocio que ya eres.”
+
+Me gusta el concepto.
+
+Preséntalo con más personalidad visual pero sin exagerarlo.
+
+El texto que lo acompañe debe ser breve.
+
+========================
+SERVICIOS
+========================
+
+Mantén estos cuatro conceptos:
+
+- Web que te representa
+- Rediseño con sentido
+- Presencia digital
+- Mantenimiento y mejoras
+
+Pero el objetivo de esta sección debe ser explicar RESULTADOS.
+
+Por ejemplo:
+
+no simplemente:
+“diseño responsive”
+
+sino:
+“Una web que se vea y funcione bien también cuando tus clientes entren desde el móvil.”
+
+No quiero cuatro tarjetas genéricas idénticas.
+
+Crea una composición más visual y dinámica.
+
+========================
+SECCIÓN EMOCIONAL
+========================
+
+Mantén:
+
+“Tu negocio ya tiene una historia.
+Hagamos que tu web esté a la altura.”
+
+Esta frase representa muy bien PGA.
+
+Utilízala como una pausa emocional dentro de la página, NO como hero.
+
+Acompáñala de una fotografía humana y natural.
+
+Esta sección debe transmitir especialmente:
+
+CONFIANZA + IMPULSO.
+
+========================
+PROYECTOS
+========================
+
+Mantén:
+
+“Proyectos con los pies en la tierra.”
+
+El primer proyecto es:
+
+EXCAVACIONES EL CABO.
+
+IMPORTANTE:
+
+NO INVENTES NADA SOBRE ESTE PROYECTO.
+
+No inventes:
+- fechas
+- ubicación
+- años de experiencia
+- slogans
+- estadísticas
+- resultados
+- textos
+- imágenes
+- diseño
+
+La página REAL es:
+
+https://excavacioneselcabo.es
+
+Quiero mostrar LA WEB REAL.
+
+Utiliza una captura real de la página dentro de un mockup elegante de ordenador y/o móvil.
+
+NO fabriques otra página para ponerla dentro del mockup.
+
+Añade:
+
+“Ver proyecto”
+
+y haz que abra:
+
+https://excavacioneselcabo.es
+
+preferiblemente en una nueva pestaña.
+
+El objetivo de esta sección es demostrar visualmente un proyecto real.
+
+========================
+PROCESO
+========================
+
+Mantén:
+
+“Sin líos. Con método.”
+
+Y:
+
+01 Hablamos
+02 Diseñamos
+03 Construimos
+04 Publicamos
+
+Quiero que esta sección transmita tranquilidad:
+
+“Sé qué va a pasar si contacto con PGA.”
+
+No quiero cuatro grandes cajas moradas.
+
+Hazla más ligera, visual y moderna.
+
+========================
+SOY PAULA
+========================
+
+Mantén:
+
+“Soy Paula.”
+
+ELIMINA:
+
+“Encantada.”
+
+No inventes experiencia profesional, herramientas, formación o conocimientos.
+
+NO menciones Figma.
+
+Quiero utilizar una analogía sencilla y humana.
+
+Usa esta idea como base:
+
+“Crear una buena web se parece un poco a preparar un espacio para recibir a alguien.
+
+Antes de pensar cómo decorarlo, necesitas saber quién va a entrar, qué necesita encontrar y qué quieres que sienta cuando esté allí.
+
+Por eso, antes de pensar en colores, imágenes o diseños, prefiero entender tu negocio, qué haces y qué quieres transmitir.
+
+A partir de ahí construimos una web que tenga sentido para ti y para tus clientes.”
+
+Puedes hacerla un poco más corta para que funcione mejor en web.
+
+Esta sección debe transmitir:
+
+CERCANÍA + CONFIANZA + PROFESIONALIDAD.
+
+IMPORTANTE:
+
+NO GENERES UNA MUJER CON IA PARA HACERLA PASAR POR PAULA.
+
+Prepara un espacio elegante para incorporar posteriormente una fotografía REAL de Paula.
+
+========================
+CONTACTO
+========================
+
+Mantén:
+
+“¿Hablamos de tu proyecto?”
+
+Quiero que contactar parezca fácil y sin compromiso.
+
+Puede utilizarse una idea como:
+
+“No hace falta que lo tengas todo claro. Cuéntame qué tienes en mente y empezamos por ahí.”
+
+Formulario:
+
+Nombre
+Negocio
+Email
+Teléfono (opcional)
+Cuéntame qué necesitas
+
+CTA:
+
+“Cuéntame tu proyecto”
+o
+“Enviar proyecto”
+
+NO inventes ningún correo electrónico.
+
+NO inventes teléfono.
+
+NO inventes redes sociales.
+
+Si el formulario todavía no está conectado a ningún servicio, NO simules que funciona.
+
+Déjalo preparado para configurar posteriormente.
+
+========================
+FOOTER
+========================
+
+Footer sencillo y profesional.
+
+PGA Estudio Digital.
+
+Navegación:
+Servicios
+Proyectos
+Sobre mí
+Contacto
+
+Puedes mencionar Alicante discretamente.
+
+NO Asturias.
+
+NO Instagram si no existe una cuenta proporcionada.
+
+NO correo inventado.
+
+NO información inventada.
+
+========================
+REGLA ABSOLUTA: NO INVENTAR
+========================
+
+No quiero volver a encontrar información ficticia.
+
+NO INVENTES:
+
+- años
+- fechas
+- ubicación
+- clientes
+- experiencia
+- estadísticas
+- testimonios
+- emails
+- teléfonos
+- redes sociales
+- herramientas
+- formación
+- premios
+- equipo
+- resultados
+- proyectos
+- datos de Excavaciones El Cabo
+
+Si falta un dato:
+
+déjalo pendiente mediante un placeholder claramente identificado.
+
+Es preferible que falte un dato a que aparezca uno falso.
+
+========================
+ANIMACIONES
+========================
+
+Utiliza microinteracciones elegantes:
+
+- apariciones suaves
+- pequeños desplazamientos
+- hover
+- transiciones
+- movimiento muy sutil
+
+Nada espectacular.
+
+El movimiento debe reforzar:
+
+CALMA + CALIDAD.
+
+========================
+MÓVIL
+========================
+
+Diseña específicamente la versión móvil.
+
+No quiero simplemente comprimir el desktop.
+
+Prioriza:
+
+- lectura
+- espaciado
+- navegación
+- imágenes
+- botones
+- jerarquía
+
+Si la navegación horizontal no cabe correctamente, utiliza un menú hamburguesa elegante.
+
+========================
+CRITERIO FINAL
+========================
+
+Antes de considerar terminada cualquier sección, pregúntate:
+
+¿Parece una marca profesional?
+¿Se siente humana?
+¿Transmite calma?
+¿Genera confianza?
+¿Da sensación de avance?
+¿Se entiende rápidamente el servicio?
+¿Parece una identidad propia de PGA?
+¿Es claramente distinta de Excavaciones El Cabo?
+¿Las imágenes parecen reales?
+¿Estoy mostrando información verdadera?
+
+Si alguna respuesta es NO, corrígelo.
+
+IMPORTANTE:
+
+NO quiero que me expliques solamente qué cambios harías.
+
+IMPLEMENTA ESTOS CAMBIOS DIRECTAMENTE SOBRE LA WEB ACTUAL.
+
+No elimines por capricho las partes que ya funcionan.
+
+Quiero una evolución clara de la versión actual hacia esta IDENTIDAD DEFINITIVA de PGA Estudio Digital.

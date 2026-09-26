@@ -144,7 +144,13 @@ function App() {
 
         <section className="emotional section" aria-labelledby="emotional-title">
           <div className="container emotional-grid">
-            <div className="emotional-visual reveal" aria-hidden="true"><div className="doorway" /></div>
+            <div className="emotional-visual reveal" data-testid="placeholder-emotional-photo">
+              <div className="emotional-photo-placeholder">
+                <div className="placeholder-mark"><Camera size={21} strokeWidth={1.5} /></div>
+                <span>Fotografía natural pendiente</span>
+                <small>Un momento real de un negocio real.</small>
+              </div>
+            </div>
             <div className="emotional-copy reveal delay-1"><span className="eyebrow">La web como puerta de entrada</span><h2 id="emotional-title" className="heading">Tu negocio ya tiene una historia. Hagamos que tu web esté <em>a la altura.</em></h2><p>Hay mucho detrás de cada negocio: una forma de hacer las cosas, unas personas y una manera de cuidar lo que se ofrece. La web puede ser el primer lugar donde todo eso se percibe.</p></div>
           </div>
         </section>
@@ -172,7 +178,7 @@ function App() {
         <section className="about section" id="sobre-mi" aria-labelledby="about-title">
           <div className="container about-grid">
             <div className="photo-placeholder reveal" data-testid="placeholder-paula-photo"><div className="placeholder-inner"><div className="placeholder-mark"><Camera size={21} strokeWidth={1.5} /></div><span>Foto real de Paula pendiente</span></div></div>
-            <div className="about-copy reveal delay-1"><span className="eyebrow">Sobre mí</span><h2 id="about-title" className="heading">Soy Paula.</h2><p>Piensa en tu web como un espacio al que invitas a alguien. Antes de elegir colores o imágenes, conviene entender quién entra, qué necesita encontrar y qué queremos que sienta al estar ahí.</p><p>Por eso el primer paso es conocer tu negocio: poner orden, encontrar lo importante y construir desde ahí una presencia digital que tenga sentido para ti.</p><div className="about-callout">La forma, las palabras y los detalles llegan después de entender bien a quién estamos invitando a pasar.</div></div>
+            <div className="about-copy reveal delay-1"><span className="eyebrow">Sobre mí</span><h2 id="about-title" className="heading">Soy Paula.</h2><p>Crear una buena web se parece un poco a preparar un espacio para recibir a alguien. Antes de pensar cómo decorarlo, necesitas saber quién va a entrar, qué necesita encontrar y qué quieres que sienta.</p><p>Por eso prefiero entender tu negocio antes de pensar en colores, imágenes o diseños. A partir de ahí construimos una web que tenga sentido para ti y para tus clientes.</p><div className="about-callout">La forma, las palabras y los detalles llegan después de entender bien a quién estamos invitando a pasar.</div></div>
           </div>
         </section>
 
@@ -201,7 +207,7 @@ function App() {
       <footer className="footer">
         <div className="container">
           <div className="footer-top"><a className="brand" href="#inicio" data-testid="link-footer-brand"><span className="brand-mark">P</span><span>PGA Estudio Digital</span></a><nav className="footer-nav" aria-label="Navegación del pie"><a href="#servicios" data-testid="link-footer-servicios">Servicios</a><a href="#proyectos" data-testid="link-footer-proyectos">Proyectos</a><a href="#sobre-mi" data-testid="link-footer-sobre-mi">Sobre mí</a><a href="#contacto" data-testid="link-footer-contacto">Contacto</a></nav></div>
-          <div className="footer-bottom"><span>© {new Date().getFullYear()} PGA Estudio Digital</span><span>Una web clara para un negocio real.</span></div>
+           <div className="footer-bottom"><span>© {new Date().getFullYear()} PGA Estudio Digital · Alicante</span><span>Una web clara para un negocio real.</span></div>
         </div>
       </footer>
     </div>
