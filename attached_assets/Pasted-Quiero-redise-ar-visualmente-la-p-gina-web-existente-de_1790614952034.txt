@@ -1,0 +1,233 @@
+Quiero rediseñar visualmente la página web existente de PGA Estudio Digital, manteniendo su estructura, funcionalidades, contenido útil y enlaces actuales.
+
+IMPORTANTE:
+NO crees una página nueva desde cero.
+NO elimines secciones ni funcionalidades existentes sin necesidad.
+NO cambies enlaces, formularios o información de contacto que ya funcionen.
+Trabaja sobre la web actual y transforma su identidad visual.
+
+NUEVA IDENTIDAD DE MARCA
+
+Marca:
+PGA Estudio Digital
+
+Profesional:
+Paula González Alonso
+
+Personalidad de marca:
+- Cercana
+- Profesional
+- Moderna
+- Elegante
+- Creativa
+- Humana
+- Orientada especialmente a autónomos, pequeños negocios y pymes
+
+La web NO debe parecer una agencia tecnológica fría ni una plantilla genérica de IA.
+Debe transmitir que detrás del estudio hay una profesional real que acompaña personalmente al cliente.
+
+PALETA VISUAL
+
+La nueva identidad utiliza:
+- Morado profundo como color corporativo principal
+- Violeta
+- Fucsia suave
+- Rosa muy claro como color auxiliar
+- Blanco y tonos crema/gris muy claro para los fondos
+
+Utilizar degradados morado → violeta → fucsia únicamente como recurso de identidad y acento.
+
+Evitar saturar toda la página de morado o rosa.
+La mayor parte de la web debe respirar mediante fondos claros, mucho espacio y bloques limpios.
+
+LOGO
+
+Voy a proporcionar el nuevo logo oficial de PGA Estudio Digital.
+
+Debe sustituir al branding/logo anterior en:
+- cabecera
+- navegación
+- footer
+- favicon o icono cuando corresponda
+
+No redibujes ni modifiques el logo.
+
+ESTILO TIPOGRÁFICO
+
+Usar una tipografía moderna, limpia y muy legible.
+
+Preferencia:
+Poppins para titulares y elementos destacados.
+Montserrat o una sans-serif equivalente para textos secundarios.
+
+Los títulos deben tener personalidad y buen contraste, pero sin tamaños exagerados.
+
+CABECERA / NAVEGACIÓN
+
+Crear una cabecera limpia y profesional.
+
+Logo PGA a la izquierda.
+
+Navegación a la derecha:
+Inicio
+Servicios
+Proyectos
+Sobre mí
+Contacto
+
+Añadir un CTA destacado:
+“Cuéntame tu proyecto”
+
+El CTA puede utilizar el degradado morado-fucsia de la identidad.
+
+La navegación debe funcionar perfectamente tanto en ordenador como en móvil.
+
+PORTADA / HERO
+
+Quiero que la portada sea el elemento visual principal de la nueva web.
+
+Mensaje principal:
+
+“Páginas web que hacen crecer
+tu negocio.”
+
+Destacar visualmente “tu negocio” utilizando el degradado morado-fucsia de la marca.
+
+Texto secundario:
+
+“Diseño web y soluciones digitales para autónomos y pequeñas empresas que quieren una presencia profesional y cercana.”
+
+CTA principal:
+
+“Cuéntame tu proyecto”
+
+Debe quedar claro en pocos segundos:
+1. Qué hace PGA Estudio Digital.
+2. Para quién trabaja.
+3. Qué beneficio aporta.
+4. Cómo contactar.
+
+No quiero una portada recargada.
+
+Debe transmitir calma, profesionalidad y confianza.
+
+SERVICIOS
+
+Mantener los servicios actuales pero rediseñar completamente su presentación visual.
+
+Usar tarjetas o bloques minimalistas con iconografía lineal coherente con la nueva identidad.
+
+La dirección visual puede incluir servicios como:
+- Diseño web
+- Presencia y visibilidad digital
+- Identidad de marca
+- Acompañamiento digital
+
+No inventes servicios que no existan actualmente sin conservar primero el contenido original.
+
+PROYECTOS
+
+Dar mucha más importancia a los proyectos reales.
+
+Excavaciones El Cabo debe mostrarse como uno de los trabajos/casos reales del estudio y conservar su enlace real.
+
+La sección debe parecer un portfolio profesional, no una simple lista.
+
+Usar:
+imagen o mockup del proyecto
+nombre
+breve explicación
+resultado/objetivo
+botón para visitar el proyecto cuando exista enlace.
+
+SOBRE PAULA
+
+La web debe reforzar que PGA Estudio Digital tiene una persona detrás.
+
+Paula González Alonso debe aparecer como profesional responsable del estudio.
+
+El tono debe ser cercano, natural y profesional.
+
+Evitar frases corporativas genéricas del tipo:
+“Somos líderes en soluciones digitales innovadoras”.
+
+Preferir lenguaje humano y concreto.
+
+BOTONES
+
+Crear un sistema coherente:
+
+Botón principal:
+degradado morado → fucsia
+texto blanco
+
+Botón secundario:
+fondo claro
+borde morado
+texto morado
+
+Hover elegante y discreto.
+
+ICONOGRAFÍA
+
+Utilizar iconos lineales minimalistas.
+
+Mismo grosor y estilo en toda la página.
+
+Colores:
+morado, violeta o pequeños acentos fucsia.
+
+ESPACIADO
+
+Quiero una web con bastante espacio en blanco.
+
+Evitar:
+- bloques demasiado juntos
+- exceso de tarjetas
+- sombras fuertes
+- demasiados degradados
+- textos enormes sin motivo
+- elementos decorativos innecesarios
+- estética de plantilla genérica
+
+RESPONSIVE
+
+Revisar específicamente:
+desktop
+tablet
+móvil
+
+En móvil:
+- el logo debe verse completo y proporcionado
+- ningún texto puede salirse de pantalla
+- los botones deben tener tamaño cómodo
+- el menú debe convertirse correctamente en menú móvil
+- los títulos deben reducirse proporcionalmente
+- mantener márgenes laterales adecuados
+
+MUY IMPORTANTE
+
+No quiero simplemente cambiar los colores de la página actual.
+
+Quiero una evolución completa de la dirección visual para que toda la web parezca diseñada alrededor de la nueva identidad PGA Estudio Digital.
+
+Mantén el contenido y funcionalidades útiles de la web actual, pero rediseña:
+tipografía,
+jerarquía,
+espaciados,
+botones,
+tarjetas,
+iconos,
+fondos,
+cabecera,
+hero,
+portfolio,
+secciones
+y footer.
+
+Antes de eliminar contenido existente, reutilízalo y adáptalo al nuevo diseño.
+
+El resultado debe sentirse:
+CERCANO + PROFESIONAL + MODERNO + LIMPIO.
+
+La referencia visual principal es la nueva identidad de PGA Estudio Digital que te proporcionaré.

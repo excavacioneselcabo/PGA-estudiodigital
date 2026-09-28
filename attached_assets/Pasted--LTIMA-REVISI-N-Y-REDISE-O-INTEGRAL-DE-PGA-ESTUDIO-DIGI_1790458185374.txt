@@ -1,0 +1,954 @@
+ÚLTIMA REVISIÓN Y REDISEÑO INTEGRAL DE PGA ESTUDIO DIGITAL
+
+Lee TODA esta instrucción antes de modificar ningún archivo.
+
+La versión actual NO cumple todavía con la dirección visual solicitada.
+
+En las últimas iteraciones has realizado cambios demasiado pequeños y has conservado prácticamente la misma estructura, composición y lenguaje visual.
+
+ESTA VEZ NO QUIERO UNA ITERACIÓN DEL DISEÑO ACTUAL.
+
+QUIERO UNA RECONSTRUCCIÓN VISUAL COMPLETA DEL FRONTEND.
+
+No crees otro proyecto.
+Trabaja sobre este proyecto y conserva su funcionamiento, pero reconstruye la experiencia visual.
+
+La diferencia entre el ANTES y el DESPUÉS debe ser evidente inmediatamente.
+
+Si al terminar sigue pareciendo la misma página con pequeños cambios de colores, fotografías, tipografía o espaciado, LA TAREA NO ESTÁ TERMINADA.
+
+==================================================
+1. QUÉ PUEDES CONSERVAR
+==================================================
+
+Conserva exclusivamente:
+
+- El nombre PGA Estudio Digital.
+- La paleta conceptual ciruela + lavanda + crema/blanco roto.
+- El contenido aprobado que especifico más adelante.
+- Las secciones necesarias.
+- El funcionamiento técnico que ya exista y sea útil.
+- La arquitectura técnica del proyecto si está bien construida.
+
+NO conserves una composición visual simplemente porque ya está programada.
+
+Puedes reconstruir los componentes si es necesario.
+
+==================================================
+2. QUÉ DEBES CAMBIAR OBLIGATORIAMENTE
+==================================================
+
+Reconstruye visualmente:
+
+- Header
+- Hero
+- sistema tipográfico
+- jerarquía de títulos
+- tratamiento de fotografías
+- estructura de servicios
+- sección emocional
+- portfolio/proyectos
+- proceso de trabajo
+- sección Soy Paula
+- contacto
+- footer
+- ritmo vertical de toda la página
+- composición responsive/mobile
+
+NO reutilices sistemáticamente:
+
+- enormes bloques morados
+- serif gigante
+- cursiva protagonista
+- líneas horizontales decorativas
+- números editoriales sin función
+- fotografías encerradas en marcos morados
+- cuatro cajas idénticas
+- grandes espacios vacíos sin propósito
+- el mismo patrón de sección repetido
+
+Quiero reconocer PGA por su propia identidad.
+
+NO debe parecer Excavaciones El Cabo recoloreada.
+
+==================================================
+3. REFERENCIAS VISUALES ADJUNTAS
+==================================================
+
+Te adjunto imágenes de una web cuya DIRECCIÓN VISUAL nos gusta.
+
+IMPORTANTE:
+
+NO COPIES esa web.
+NO reproduzcas su layout literalmente.
+NO copies textos.
+NO copies elementos identificativos.
+NO quiero una réplica.
+
+Úsala únicamente para comprender:
+
+- fuerza de marca
+- jerarquía tipográfica
+- personalidad
+- equilibrio entre espacios vacíos y contenido
+- claridad
+- composiciones modernas
+- sensación premium sin ostentación
+- buen uso de tipografía
+- contraste
+- ritmo visual
+- capacidad de conseguir impacto con pocos elementos
+
+Quiero trasladar ESA SEGURIDAD VISUAL a PGA.
+
+Pero PGA debe ser:
+más cercana,
+más cálida,
+más tranquila,
+más accesible
+y orientada a pequeños negocios.
+
+==================================================
+4. PERSONALIDAD DE MARCA
+==================================================
+
+La identidad definitiva de PGA se basa en:
+
+CONFIANZA
+CALMA
+TRANQUILIDAD
+IMPULSO
+PROFESIONALIDAD
+CERCANÍA
+
+El visitante debe sentir:
+
+“Entienden mi negocio.”
+
+“Puedo confiarles mi proyecto.”
+
+“No necesito saber de páginas web para hablar con ellos.”
+
+“Van a acompañarme.”
+
+“Mi negocio puede verse mucho más profesional.”
+
+“Esto me ayuda a avanzar.”
+
+PGA NO debe parecer:
+
+- una gran agencia
+- una startup tecnológica
+- un portfolio experimental
+- una plantilla de IA
+- una marca de lujo
+- una empresa fría
+- una copia de Excavaciones El Cabo
+
+Debe sentirse como un ESTUDIO DIGITAL HUMANO Y PROFESIONAL.
+
+==================================================
+5. PÚBLICO Y SERVICIO
+==================================================
+
+PGA crea y mejora páginas web para:
+
+- autónomos
+- pequeños negocios
+- PYMES
+
+El SERVICIO debe ser protagonista.
+
+En los primeros segundos debe entenderse:
+
+QUÉ hacemos.
+PARA QUIÉN.
+POR QUÉ puede ser útil.
+
+No centres toda la página en hablar de PGA.
+
+Habla del negocio del CLIENTE.
+
+El cliente no está comprando “React”, “responsive design”, “UI/UX” ni herramientas.
+
+Está buscando:
+
+- verse profesional
+- generar confianza
+- explicar qué hace
+- mostrar sus servicios
+- facilitar el contacto
+- tener una web adecuada para móvil
+- representar correctamente su negocio
+- disponer de una presencia digital que pueda evolucionar
+
+Habla en ese lenguaje.
+
+==================================================
+6. COPY
+==================================================
+
+TODO EL COPY DEBE SER:
+
+CORTO.
+CLARO.
+HUMANO.
+DIRECTO.
+
+Evita párrafos largos.
+
+Evita lenguaje técnico.
+
+Evita lenguaje típico de agencia.
+
+NO utilizar:
+
+“Llevamos tu negocio al siguiente nivel.”
+
+“Soluciones digitales innovadoras.”
+
+“Transformamos ideas en experiencias.”
+
+“Potenciamos tu presencia digital.”
+
+Ni frases similares vacías.
+
+Cada frase debe comunicar algo concreto.
+
+==================================================
+7. NUEVO HERO
+==================================================
+
+RECONSTRUYE COMPLETAMENTE EL HERO.
+
+No reutilices la composición actual.
+
+Debe ser una de las diferencias más evidentes respecto al diseño anterior.
+
+Quiero:
+
+- fondo predominantemente claro
+- mucha claridad
+- composición asimétrica pero equilibrada
+- tipografía con personalidad
+- imagen natural integrada en el diseño
+- pequeños detalles gráficos de marca
+- mucho aire
+- CTA claramente visible
+
+NO quiero un rectángulo morado gigante.
+
+El mensaje debe dejar claro inmediatamente que hacemos páginas web para negocios.
+
+Puedes trabajar un concepto como:
+
+“Una web que hable bien de tu negocio.”
+
+Y debajo explicar de manera breve:
+
+“Diseñamos páginas web claras, profesionales y pensadas para que tus clientes entiendan quién eres, qué haces y cómo contactar contigo.”
+
+No tienes obligación de utilizar literalmente estas frases si puedes mejorarlas SIN inventar promesas.
+
+CTA principal:
+
+CUÉNTAME TU PROYECTO
+
+CTA secundario:
+
+VER PROYECTOS
+
+Debe existir un elemento visual/fotográfico natural.
+
+No una persona posando.
+
+==================================================
+8. COLORES
+==================================================
+
+Paleta:
+
+CIRUELA
+LAVANDA
+CREMA / BLANCO ROTO
+NEUTROS CÁLIDOS
+
+Pero cambia RADICALMENTE la proporción actual.
+
+Aproximadamente:
+
+60–70 % fondos claros/neutros
+15–25 % lavanda suave
+10–15 % ciruela intenso como contraste
+
+No interpretes estos porcentajes matemáticamente.
+Son una guía visual.
+
+El ciruela debe funcionar como FIRMA DE MARCA, no como fondo permanente.
+
+Úsalo en:
+
+- CTA
+- palabras importantes
+- pequeños elementos
+- detalles
+- alguna sección estratégica
+
+El lavanda aporta calma.
+
+El crema aporta humanidad.
+
+El ciruela aporta carácter.
+
+==================================================
+9. TIPOGRAFÍA
+==================================================
+
+RECONSTRUYE EL SISTEMA TIPOGRÁFICO.
+
+Quiero una tipografía contemporánea, limpia y con personalidad.
+
+Prioriza legibilidad.
+
+No quiero que serif + cursiva definan toda la web.
+
+Puedes utilizar una segunda tipografía con carácter para determinados titulares o palabras, pero de manera controlada.
+
+Cursiva: uso mínimo.
+
+Los titulares deben sentirse seguros, no pretenciosos.
+
+Los párrafos deben ser claramente legibles.
+
+No vuelvas a utilizar texto minúsculo como recurso estético.
+
+==================================================
+10. FOTOGRAFÍA: CAMBIO IMPORTANTE
+==================================================
+
+Las fotografías actuales siguen pareciendo demasiado preparadas.
+
+Quiero estética DOCUMENTAL.
+
+Piensa en:
+
+“un fotógrafo ha acompañado durante una mañana a pequeños empresarios reales.”
+
+NO:
+
+“una sesión fotográfica para una agencia digital.”
+
+Busco:
+
+- luz natural
+- expresiones espontáneas
+- pequeños negocios
+- personas concentradas
+- conversaciones reales
+- manos trabajando
+- alguien enseñando su negocio
+- portátil utilizado de forma natural
+- propietario revisando algo
+- espacios imperfectos pero cuidados
+- situaciones cotidianas
+
+NO:
+
+- sonrisas mirando a cámara
+- modelos corporativos
+- apretones de manos
+- oficinas perfectas
+- escritorios montados
+- taza + libreta + lápices perfectamente colocados
+- paredes moradas creadas para coincidir con PGA
+- pantallas futuristas
+- fotografías evidentemente generadas por IA
+
+La fotografía NO tiene que ser morada.
+
+El diseño ya se encargará de transmitir la marca.
+
+No repitas fotografías.
+
+Cada imagen debe tener un propósito narrativo.
+
+==================================================
+11. SECCIÓN DE POSICIONAMIENTO
+==================================================
+
+CONSERVAR:
+
+“No necesitas parecer una gran empresa.
+Necesitas verte como el negocio que ya eres.”
+
+Esta idea es importante.
+
+Quiero convertirla en un momento de IDENTIDAD.
+
+No acompañarla con demasiado texto.
+
+Debe respirar.
+
+Puede utilizar una composición tipográfica con un detalle visual o fotografía.
+
+NO volver a hacer una página editorial llena de cursivas.
+
+==================================================
+12. SERVICIOS
+==================================================
+
+CONSERVAR:
+
+WEB QUE TE REPRESENTA
+
+REDISEÑO CON SENTIDO
+
+PRESENCIA DIGITAL
+
+MANTENIMIENTO Y MEJORAS
+
+Pero reconstruye completamente la presentación.
+
+NO cuatro tarjetas idénticas.
+NO cuatro filas idénticas.
+
+Cada servicio debe responder:
+
+“¿Qué cambia para mi negocio?”
+
+Ejemplos conceptuales:
+
+WEB QUE TE REPRESENTA
+Que alguien entre y entienda rápidamente quién eres, qué haces y cómo contactar contigo.
+
+REDISEÑO CON SENTIDO
+Si tu web se ha quedado atrás, reorganizamos lo necesario para que vuelva a representar tu negocio.
+
+PRESENCIA DIGITAL
+Una imagen online coherente que transmita confianza antes incluso de que el cliente te llame.
+
+MANTENIMIENTO Y MEJORAS
+La web no tiene que quedarse congelada. Puede evolucionar conforme evoluciona tu negocio.
+
+Puedes pulir estos textos manteniendo el significado.
+
+Quiero recursos visuales diferentes:
+
+- pequeños mockups
+- fotografía
+- tipografía
+- comparaciones visuales
+
+No llenar de iconos genéricos.
+
+==================================================
+13. SECCIÓN EMOCIONAL
+==================================================
+
+CONSERVAR EXACTAMENTE LA IDEA:
+
+“Tu negocio ya tiene una historia.
+Hagamos que tu web esté a la altura.”
+
+Esta es una frase importante de la marca.
+
+Debe funcionar como pausa emocional.
+
+Diseña una sección muy limpia.
+
+Puede ser:
+
+fotografía natural + frase
+
+o
+
+frase + fotografía.
+
+No necesita mucho más.
+
+Debe transmitir:
+
+CONFIANZA + IMPULSO.
+
+==================================================
+14. PROYECTOS
+==================================================
+
+CONSERVAR:
+
+“Proyectos con los pies en la tierra.”
+
+Primer proyecto:
+
+EXCAVACIONES EL CABO.
+
+Aquí NO tolero contenido ficticio.
+
+Página real:
+
+https://excavacioneselcabo.es
+
+NO inventes:
+
+- fecha
+- ubicación
+- años
+- experiencia
+- slogans
+- cifras
+- resultados
+- fotografías
+- métricas
+
+ELIMINA cualquier resto anterior como:
+
+“2024 — Asturias”
+“desde 1988”
+“La tierra. En buenas manos.”
+“Trabajo bien hecho”
+
+y cualquier otro dato inventado.
+
+QUIERO VER EL PROYECTO REAL.
+
+Obtén/utiliza una captura de la web real:
+
+https://excavacioneselcabo.es
+
+y muéstrala dentro de un mockup limpio de:
+
+- portátil
+y/o
+- teléfono móvil
+
+NO generes una web falsa para el mockup.
+
+Texto del proyecto:
+
+Explica únicamente que el trabajo se orientó a:
+
+- presentar claramente el negocio
+- ordenar sus servicios
+- mostrar trabajos realizados
+- facilitar el contacto
+- adaptar la experiencia a móvil
+
+Sin atribuir resultados no demostrados.
+
+CTA:
+
+VER PROYECTO
+
+Debe enlazar DIRECTAMENTE a:
+
+https://excavacioneselcabo.es
+
+Configura el enlace para abrir en nueva pestaña y utiliza las medidas de seguridad apropiadas para enlaces externos.
+
+==================================================
+15. PROCESO
+==================================================
+
+CONSERVAR:
+
+“Sin líos. Con método.”
+
+Y:
+
+01 — Hablamos
+02 — Diseñamos
+03 — Construimos
+04 — Publicamos
+
+Pero REDISEÑA LA SECCIÓN.
+
+No quiero cuatro cuadrados enormes.
+
+No quiero otro bloque morado.
+
+Quiero un recorrido visual ligero.
+
+Puede utilizar:
+
+una línea
+un camino
+una secuencia
+un scroll progresivo
+
+Los textos deben ser MUY breves.
+
+Objetivo emocional:
+
+“Sé exactamente qué ocurrirá cuando contacte.”
+
+==================================================
+16. SOY PAULA
+==================================================
+
+CONSERVAR:
+
+“Soy Paula.”
+
+ELIMINAR:
+
+“Encantada.”
+
+ELIMINAR:
+
+cualquier referencia a Figma.
+
+NO inventes:
+
+- experiencia
+- formación
+- conocimientos técnicos
+- herramientas
+- años
+- clientes
+- trayectoria
+
+Paula debe transmitir profesionalidad por CÓMO se presenta y cómo trabaja, no mediante credenciales inventadas.
+
+Utiliza esta analogía:
+
+“Crear una buena web se parece un poco a preparar un espacio para recibir a alguien.
+
+Antes de pensar cómo decorarlo, necesitas saber quién va a entrar, qué necesita encontrar y qué quieres que sienta cuando esté allí.
+
+Por eso, antes de pensar en colores o imágenes, prefiero entender tu negocio, qué haces y qué quieres transmitir.
+
+A partir de ahí construimos una web que tenga sentido para ti y para tus clientes.”
+
+Adáptala a web.
+Hazla más breve si es necesario.
+NO alteres su significado.
+
+MUY IMPORTANTE:
+
+NO GENERES UNA MUJER CON IA PARA REPRESENTAR A PAULA.
+
+Si no existe una fotografía real cargada en el proyecto, crea un espacio/placeholder elegante preparado para añadirla después.
+
+Debe quedar bien incluso sin fotografía.
+
+==================================================
+17. CONTACTO
+==================================================
+
+CONSERVAR:
+
+“¿Hablamos de tu proyecto?”
+
+Texto breve:
+
+“No hace falta que lo tengas todo claro. Cuéntame qué tienes en mente y empezamos por ahí.”
+
+Formulario:
+
+Nombre
+Negocio
+Email
+Teléfono (opcional)
+Cuéntame qué necesitas
+
+CTA:
+
+CUÉNTAME TU PROYECTO
+
+o
+
+ENVIAR PROYECTO
+
+NO inventes email receptor.
+
+NO inventes teléfono.
+
+NO inventes dirección.
+
+Si el formulario no dispone todavía de backend real:
+
+NO simules el envío.
+
+Déjalo preparado visual y técnicamente para conectarlo posteriormente.
+
+==================================================
+18. UBICACIÓN
+==================================================
+
+PGA está en:
+
+ALICANTE.
+
+ELIMINA TODOS LOS RESTOS DE:
+
+ASTURIAS.
+
+Busca en TODO el código y contenido.
+
+Pero NO quiero “Alicante” repetido constantemente.
+
+Puede aparecer discretamente en:
+
+- presentación
+- contacto
+- footer
+
+Una o dos menciones son suficientes.
+
+==================================================
+19. FOOTER
+==================================================
+
+Footer sencillo.
+
+PGA ESTUDIO DIGITAL
+
+Servicios
+Proyectos
+Sobre mí
+Contacto
+
+Alicante, si encaja.
+
+Nada más si no disponemos de información real.
+
+NO Instagram inventado.
+NO correo inventado.
+NO teléfono inventado.
+
+==================================================
+20. HEADER
+==================================================
+
+Rediseña el header para que tenga personalidad pero sea muy limpio.
+
+Desktop:
+
+logo/nombre PGA
+navegación
+CTA
+
+Mobile:
+
+NO comprimas todos los enlaces horizontalmente.
+
+Utiliza menú hamburguesa elegante.
+
+Header sticky únicamente si no resulta invasivo.
+
+==================================================
+21. MICROINTERACCIONES
+==================================================
+
+Quiero movimiento, pero MUY controlado.
+
+Implementa:
+
+- entradas suaves al hacer scroll
+- hover refinado
+- pequeños desplazamientos
+- transiciones
+- microinteracciones de botones
+
+Nada llamativo.
+
+Nada que distraiga.
+
+Sensación:
+
+CALIDAD + CALMA.
+
+Respeta prefers-reduced-motion.
+
+==================================================
+22. RESPONSIVE
+==================================================
+
+NO diseñes desktop y después lo reduzcas.
+
+Comprueba específicamente:
+
+375px
+390px
+430px
+768px
+1024px
+1440px
+
+En móvil:
+
+- títulos proporcionados
+- nada cortado
+- menú hamburguesa
+- imágenes bien recortadas
+- botones grandes
+- párrafos legibles
+- espacio suficiente
+- ningún overflow horizontal
+
+==================================================
+23. ACCESIBILIDAD Y CALIDAD
+==================================================
+
+Mantén HTML semántico.
+
+Un solo H1.
+
+Jerarquía correcta H2/H3.
+
+Contraste suficiente.
+
+Estados :hover y :focus.
+
+ALT descriptivos cuando corresponda.
+
+Botones y enlaces accesibles.
+
+Optimiza imágenes.
+
+No cargues librerías innecesarias.
+
+No sacrifiques rendimiento por animaciones.
+
+==================================================
+24. PROHIBICIÓN ABSOLUTA DE INVENTAR
+==================================================
+
+Esta regla tiene prioridad sobre cualquier decisión creativa.
+
+NO INVENTES:
+
+ubicaciones
+años
+fechas
+trayectoria
+clientes
+estadísticas
+testimonios
+precios
+emails
+teléfonos
+direcciones
+redes sociales
+herramientas
+formación
+equipo
+resultados
+premios
+certificaciones
+proyectos
+datos de Excavaciones El Cabo
+
+Si no dispones de un dato real:
+
+NO LO ESCRIBAS.
+
+Si es imprescindible para la interfaz:
+
+usa un placeholder claramente marcado.
+
+Una ausencia es mejor que información falsa.
+
+==================================================
+25. NO QUIERO ESTO
+==================================================
+
+Al finalizar NO quiero reconocer:
+
+- el mismo hero
+- las mismas cuatro filas de servicios
+- los mismos enormes fondos morados
+- las mismas fotografías
+- la misma estructura repetitiva
+- la misma estética editorial
+- la misma composición de proyectos
+- el mismo bloque de proceso
+- el mismo “Soy Paula”
+- el mismo contacto
+
+Si simplemente cambias CSS sobre los componentes actuales, probablemente NO será suficiente.
+
+Reconstruye los componentes visuales cuando haga falta.
+
+==================================================
+26. QUÉ SÍ QUIERO RECONOCER
+==================================================
+
+Debe seguir siendo PGA por:
+
+- nombre
+- ciruela
+- lavanda
+- tono humano
+- mensajes aprobados
+- servicios
+- proyecto real
+- Paula
+- filosofía
+
+Pero debe sentirse como una marca MUCHO MÁS MADURA Y PROFESIONAL.
+
+==================================================
+27. CRITERIO DE ACEPTACIÓN
+==================================================
+
+Antes de terminar, compara mentalmente la versión anterior y la nueva.
+
+El cambio debe ser evidente SIN NECESIDAD DE EXPLICARLO.
+
+Comprueba uno por uno:
+
+[ ] Hero completamente reconstruido.
+[ ] Sistema tipográfico claramente diferente.
+[ ] Predominan fondos claros.
+[ ] Ciruela utilizado como acento, no como relleno constante.
+[ ] Fotografías naturales.
+[ ] Ninguna fotografía repetida.
+[ ] Servicios reconstruidos.
+[ ] Sección emocional reconstruida.
+[ ] Portfolio reconstruido.
+[ ] Excavaciones El Cabo muestra la web REAL.
+[ ] El botón abre https://excavacioneselcabo.es
+[ ] Proceso reconstruido.
+[ ] “Soy Paula” reconstruido.
+[ ] No aparece “Encantada”.
+[ ] No aparece Figma.
+[ ] Contacto reconstruido.
+[ ] Footer limpio.
+[ ] No aparece Asturias en ningún punto.
+[ ] No existe información inventada.
+[ ] Mobile está diseñado específicamente.
+[ ] La web es claramente diferente de Excavaciones El Cabo.
+[ ] La web transmite confianza.
+[ ] La web transmite calma.
+[ ] La web transmite impulso.
+[ ] El servicio se entiende en segundos.
+
+Si alguno de estos puntos no se cumple, corrígelo ANTES de finalizar.
+
+==================================================
+28. INSTRUCCIÓN FINAL
+==================================================
+
+NO respondas únicamente describiendo lo que harías.
+
+NO me entregues otra propuesta conceptual.
+
+NO hagas únicamente pequeños ajustes cosméticos.
+
+IMPLEMENTA EL REDISEÑO COMPLETO EN EL PROYECTO ACTUAL.
+
+Tienes libertad para reconstruir los componentes visuales necesarios.
+
+Conserva la funcionalidad útil y el contenido que expresamente he aprobado.
+
+Utiliza las imágenes de referencia adjuntas solamente como DIRECCIÓN DE DISEÑO, nunca como plantilla para copiar.
+
+La nueva versión debe hacer evidente que PGA Estudio Digital tiene una identidad propia:
+
+HUMANA.
+PROFESIONAL.
+TRANQUILA.
+CERCANA.
+CON CARÁCTER.
+Y PENSADA PARA AYUDAR A NEGOCIOS REALES A AVANZAR.

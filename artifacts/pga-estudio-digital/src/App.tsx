@@ -1,32 +1,65 @@
 import { type FormEvent, useEffect, useState } from 'react';
-import { ArrowRight, ArrowUpRight, Camera, Menu, X } from 'lucide-react';
+import {
+  ArrowRight,
+  ArrowUpRight,
+  Camera,
+  Compass,
+  LayoutTemplate,
+  Menu,
+  RefreshCw,
+  X,
+} from 'lucide-react';
 import './index.css';
 
-const serviceDetails = {
-  featured: {
+const serviceDetails = [
+  {
+    number: '01',
     title: 'Web que te representa',
-    copy: 'Para que se entienda qué haces, qué ofreces y cómo ponerse en contacto contigo desde el primer vistazo.',
+    copy: 'Que quien entre entienda rápidamente quién eres, qué haces y cómo contactar contigo.',
+    icon: LayoutTemplate,
+    className: 'service-primary',
   },
-  redesign: {
+  {
+    number: '02',
     title: 'Rediseño con sentido',
-    copy: 'Ordenamos una web que ya existe, mejoramos la navegación y hacemos que funcione bien en móvil.',
+    copy: 'Reordenamos lo que ya tienes para que vuelva a estar a la altura de tu negocio.',
+    icon: RefreshCw,
+    className: 'service-secondary',
   },
-  presence: {
+  {
+    number: '03',
     title: 'Presencia digital',
-    copy: 'Para que tus servicios se encuentren y tu negocio se vea profesional en los lugares donde lo buscan.',
+    copy: 'Una imagen online coherente que transmita confianza antes de que te llamen.',
+    icon: Compass,
+    className: 'service-tertiary',
   },
-  maintenance: {
+  {
+    number: '04',
     title: 'Mantenimiento y mejoras',
-    copy: 'Añadimos, ajustamos y mantenemos tu web al día mientras tu negocio evoluciona.',
+    copy: 'Tu web puede evolucionar conforme evoluciona tu negocio.',
+    icon: ArrowUpRight,
+    className: 'service-wide',
   },
-};
+];
 
 const steps = [
-  { title: 'Hablamos', copy: 'Me cuentas qué haces y qué necesitas.' },
-  { title: 'Diseñamos', copy: 'Damos forma a una dirección clara.' },
-  { title: 'Construimos', copy: 'Convertimos la idea en una web que funciona.' },
-  { title: 'Publicamos', copy: 'La ponemos en marcha contigo.' },
+  { number: '01', title: 'Hablamos', copy: 'Me cuentas qué haces.' },
+  { number: '02', title: 'Diseñamos', copy: 'Damos forma a la dirección.' },
+  { number: '03', title: 'Construimos', copy: 'Lo convertimos en una web.' },
+  { number: '04', title: 'Publicamos', copy: 'La ponemos en marcha contigo.' },
 ];
+
+function PhotoPlaceholder({ label, detail, className = '' }: { label: string; detail: string; className?: string }) {
+  return (
+    <div className={`photo-placeholder ${className}`} role="img" aria-label={`${label}. ${detail}`}>
+      <div className="photo-placeholder-inner">
+        <span className="photo-placeholder-icon"><Camera size={19} strokeWidth={1.5} /></span>
+        <strong>{label}</strong>
+        <small>{detail}</small>
+      </div>
+    </div>
+  );
+}
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -42,7 +75,7 @@ function App() {
           observer.unobserve(entry.target);
         }
       });
-    }, { threshold: 0.12 });
+    }, { threshold: 0.14 });
     const elements = document.querySelectorAll<HTMLElement>('.reveal');
     elements.forEach((element) => observer.observe(element));
     return () => observer.disconnect();
@@ -70,135 +103,188 @@ function App() {
     setForm({ nombre: '', negocio: '', email: '', telefono: '', necesidades: '' });
   };
 
+  const closeMenu = () => setMenuOpen(false);
+
   return (
     <div className="site-shell">
       <header className="header">
         <nav className="container nav" aria-label="Navegación principal">
-          <a className="brand" href="#inicio" data-testid="link-brand"><span className="brand-mark" aria-hidden="true">P</span><span>PGA Estudio Digital</span></a>
+          <a className="brand" href="#inicio" onClick={closeMenu} data-testid="link-brand">
+            <span className="brand-wordmark">PGA</span>
+            <span className="brand-name">Estudio Digital</span>
+          </a>
           <div className={`nav-links ${menuOpen ? 'open' : ''}`}>
-            <a className="nav-link" href="#inicio" onClick={() => setMenuOpen(false)} data-testid="link-inicio">Inicio</a>
-            <a className="nav-link" href="#servicios" onClick={() => setMenuOpen(false)} data-testid="link-servicios">Servicios</a>
-            <a className="nav-link" href="#proyectos" onClick={() => setMenuOpen(false)} data-testid="link-proyectos">Proyectos</a>
-            <a className="nav-link" href="#sobre-mi" onClick={() => setMenuOpen(false)} data-testid="link-sobre-mi">Sobre mí</a>
-            <a className="nav-link" href="#contacto" onClick={() => setMenuOpen(false)} data-testid="link-contacto">Contacto</a>
-            <a className="button" href="#contacto" onClick={() => setMenuOpen(false)} data-testid="link-mobile-cta">Cuéntame tu proyecto <ArrowRight size={15} /></a>
+            <a className="nav-link active" href="#inicio" onClick={closeMenu} data-testid="link-inicio">Inicio</a>
+            <a className="nav-link" href="#servicios" onClick={closeMenu} data-testid="link-servicios">Servicios</a>
+            <a className="nav-link" href="#proyectos" onClick={closeMenu} data-testid="link-proyectos">Proyectos</a>
+            <a className="nav-link" href="#sobre-mi" onClick={closeMenu} data-testid="link-sobre-mi">Sobre mí</a>
+            <a className="nav-link" href="#contacto" onClick={closeMenu} data-testid="link-contacto">Contacto</a>
+            <a className="button button-gradient mobile-cta" href="#contacto" onClick={closeMenu} data-testid="link-mobile-cta">Cuéntame tu proyecto <ArrowRight size={15} /></a>
           </div>
-          <a className="button" href="#contacto" data-testid="link-desktop-cta">Cuéntame tu proyecto <ArrowRight size={15} /></a>
-          <button className="menu-button" onClick={() => setMenuOpen((current) => !current)} aria-label={menuOpen ? 'Cerrar menú' : 'Abrir menú'} aria-expanded={menuOpen} data-testid="button-menu">{menuOpen ? <X size={23} /> : <Menu size={23} />}</button>
+          <a className="button button-gradient desktop-cta" href="#contacto" data-testid="link-desktop-cta">Cuéntame tu proyecto <ArrowRight size={15} /></a>
+          <button className="menu-button" onClick={() => setMenuOpen((current) => !current)} aria-label={menuOpen ? 'Cerrar menú' : 'Abrir menú'} aria-expanded={menuOpen} data-testid="button-menu">
+            {menuOpen ? <X size={22} /> : <Menu size={22} />}
+          </button>
         </nav>
       </header>
 
       <main>
         <section className="hero" id="inicio" aria-labelledby="hero-title">
-          <div className="container hero-grid">
+          <div className="container hero-layout">
             <div className="hero-copy reveal">
-              <span className="eyebrow">PGA Estudio Digital</span>
-              <h1 id="hero-title" className="heading">Webs claras para negocios <em>reales.</em></h1>
-              <p className="hero-lede">Creo y mejoro páginas web para autónomos, pequeños negocios y PYMES. Para que tu trabajo se entienda, tu negocio se vea profesional y las personas encuentren cómo contactarte.</p>
+              <span className="kicker"><span className="kicker-dot" /> PGA Estudio Digital</span>
+              <h1 id="hero-title">Páginas web que hacen crecer <span>tu negocio.</span></h1>
+              <p className="hero-lede">Diseño web y soluciones digitales para autónomos y pequeñas empresas que quieren una presencia profesional y cercana.</p>
               <div className="hero-actions">
-                <a className="button" href="#contacto" data-testid="link-hero-primary">Cuéntame tu proyecto <ArrowRight size={16} /></a>
-                <a className="button-text" href="#proyectos" data-testid="link-hero-secondary">Ver proyectos <ArrowRight size={16} /></a>
+                <a className="button button-gradient" href="#contacto" data-testid="link-hero-primary">Cuéntame tu proyecto <ArrowRight size={16} /></a>
+                <a className="button button-outline" href="#proyectos" data-testid="link-hero-secondary">Ver proyectos <ArrowRight size={16} /></a>
               </div>
+              <div className="hero-note"><span className="hero-note-line" /> Webs pensadas para personas, no para impresionar a otros diseñadores.</div>
             </div>
-            <div className="hero-visual reveal delay-1" aria-label="Composición visual sobre claridad digital">
-              <div className="visual-card">
-                <div className="visual-window">
-                  <div className="window-top"><span className="window-dot" /><span className="window-dot" /><span className="window-dot" /><span className="window-address">tu-negocio.es</span></div>
-                  <div className="window-body">
-                    <div className="window-message"><span className="window-brand">PGA / DIGITAL</span><h2>Que se entienda lo que haces.</h2><p>Una página pensada para las personas que necesitan encontrarte.</p><div className="window-shape" /></div>
-                    <div className="window-art" aria-hidden="true" />
-                  </div>
-                </div>
-                <div className="visual-note">Una presencia digital con sentido<span>clara · cercana · tuya</span></div>
-              </div>
+            <div className="hero-visual reveal delay-1">
+              <div className="hero-orbit orbit-one" />
+              <div className="hero-orbit orbit-two" />
+              <PhotoPlaceholder
+                className="hero-photo"
+                label="Fotografía real pendiente"
+                detail="Un momento natural de un pequeño negocio."
+              />
+              <div className="hero-card hero-card-top"><span className="card-caption">PGA / ESTUDIO DIGITAL</span><strong>Que tu web<br /><em>hable bien</em><br />de lo que haces.</strong></div>
+              <div className="hero-card hero-card-bottom"><span className="mini-dot" /> Claridad que se nota</div>
             </div>
           </div>
         </section>
 
-        <section className="statement" aria-labelledby="statement-title">
-          <div className="container statement-grid reveal">
-            <p className="statement-note">Una idea importante</p>
-            <h2 id="statement-title" className="heading">No necesitas parecer una gran empresa. Necesitas verte como el negocio que ya eres.</h2>
+        <section className="positioning section-small" aria-labelledby="positioning-title">
+          <div className="container positioning-layout reveal">
+            <span className="section-label">Una idea importante</span>
+            <div className="positioning-copy">
+              <h2 id="positioning-title">No necesitas parecer una gran empresa. <span>Necesitas verte como el negocio que ya eres.</span></h2>
+              <div className="positioning-mark" aria-hidden="true"><span /><span /><span /></div>
+            </div>
           </div>
         </section>
 
         <section className="services section" id="servicios" aria-labelledby="services-title">
           <div className="container">
-            <div className="services-head reveal">
-              <div><span className="eyebrow">Lo que puedo hacer por ti</span><h2 id="services-title" className="heading">Una web que trabaja<br /><em>en tu dirección.</em></h2></div>
-              <p>Lo importante no es tener más páginas. Es que cada parte ayude a tu negocio a ser más fácil de entender y de elegir.</p>
+            <div className="section-intro reveal">
+              <div><span className="section-label">Lo que puedo hacer por ti</span><h2 id="services-title">Una web que trabaja<br /><span>en tu dirección.</span></h2></div>
+              <p>Lo importante no es tener más páginas. Es que tu negocio se entienda, genere confianza y facilite el contacto.</p>
             </div>
-            <div className="services-layout">
-              <article className="service-feature reveal" data-testid="service-web-representa">
-                <span className="service-tag">Para empezar con claridad</span>
-                <div><h3>{serviceDetails.featured.title}</h3><p>{serviceDetails.featured.copy}</p><div className="service-action"><span>Diseño y creación web</span><ArrowUpRight size={18} /></div></div>
-              </article>
-              <div className="service-stack">
-                <article className="service-compact reveal delay-1" data-testid="service-rediseño"><div><span className="service-tag">Para ordenar lo que ya tienes</span><h3>{serviceDetails.redesign.title}</h3><p>{serviceDetails.redesign.copy}</p></div><ArrowUpRight size={17} color="var(--plum-soft)" /></article>
-                <article className="service-compact reveal delay-2" data-testid="service-presencia"><div><span className="service-tag">Para que te encuentren</span><h3>{serviceDetails.presence.title}</h3><p>{serviceDetails.presence.copy}</p></div><ArrowUpRight size={17} color="var(--plum-soft)" /></article>
-              </div>
+            <div className="service-mosaic">
+              {serviceDetails.map((service, index) => {
+                const Icon = service.icon;
+                return (
+                  <article className={`service-block ${service.className} reveal ${index > 0 ? `delay-${Math.min(index, 2)}` : ''}`} key={service.title} data-testid={`service-${service.number}`}>
+                    <div className="service-block-top"><span className="service-number">{service.number}</span><Icon size={20} strokeWidth={1.5} /></div>
+                    <div><h3>{service.title}</h3><p>{service.copy}</p></div>
+                    {index === 0 && <span className="service-link">Diseño y creación web <ArrowUpRight size={17} /></span>}
+                  </article>
+                );
+              })}
             </div>
-            <article className="service-wide reveal" data-testid="service-mantenimiento"><div><span className="service-tag">Para seguir avanzando</span><h3>{serviceDetails.maintenance.title}</h3></div><p>{serviceDetails.maintenance.copy}</p></article>
           </div>
         </section>
 
-        <section className="emotional section" aria-labelledby="emotional-title">
-          <div className="container emotional-grid">
-            <div className="emotional-visual reveal" data-testid="placeholder-emotional-photo">
-              <div className="emotional-photo-placeholder">
-                <div className="placeholder-mark"><Camera size={21} strokeWidth={1.5} /></div>
-                <span>Fotografía natural pendiente</span>
-                <small>Un momento real de un negocio real.</small>
-              </div>
+        <section className="story section" aria-labelledby="story-title">
+          <div className="container story-layout">
+            <PhotoPlaceholder className="story-photo reveal" label="Fotografía natural pendiente" detail="Una escena cotidiana de un negocio real." />
+            <div className="story-copy reveal delay-1">
+              <span className="section-label">La web como puerta de entrada</span>
+              <h2 id="story-title">Tu negocio ya tiene una historia. <span>Hagamos que tu web esté a la altura.</span></h2>
+              <p>Hay mucho detrás de cada negocio: una forma de hacer las cosas, unas personas y una manera de cuidar lo que se ofrece.</p>
             </div>
-            <div className="emotional-copy reveal delay-1"><span className="eyebrow">La web como puerta de entrada</span><h2 id="emotional-title" className="heading">Tu negocio ya tiene una historia. Hagamos que tu web esté <em>a la altura.</em></h2><p>Hay mucho detrás de cada negocio: una forma de hacer las cosas, unas personas y una manera de cuidar lo que se ofrece. La web puede ser el primer lugar donde todo eso se percibe.</p></div>
           </div>
         </section>
 
         <section className="projects section" id="proyectos" aria-labelledby="projects-title">
           <div className="container">
-            <div className="projects-head reveal"><div><span className="eyebrow">Un proyecto real</span><h2 id="projects-title" className="heading">Proyectos con los pies<br /><em>en la tierra.</em></h2></div><p>Una muestra de transformación digital para un negocio tradicional. Puedes conocer el proyecto directamente en su web.</p></div>
-            <article className="project-case reveal delay-1" data-testid="project-excavaciones-el-cabo">
-              <div className="browser"><div className="browser-bar"><span className="browser-dot" /><span className="browser-dot" /><span className="browser-dot" /><span className="browser-url">excavacioneselcabo.es</span></div></div>
-              <img className="project-image" src="/excavaciones-el-cabo-real.png" alt="Captura real de la web de Excavaciones El Cabo" />
-              <div className="case-caption"><div><h3>Excavaciones El Cabo</h3><p>Proyecto de página web para un negocio tradicional. La información y el contenido del proyecto se pueden consultar en su web.</p></div><a className="button" href="https://excavacioneselcabo.es" target="_blank" rel="noreferrer" data-testid="link-ver-proyecto">Ver proyecto <ArrowUpRight size={16} /></a></div>
+            <div className="section-intro project-intro reveal">
+              <div><span className="section-label">Un proyecto real</span><h2 id="projects-title">Proyectos con los pies <span>en la tierra.</span></h2></div>
+              <p>Una muestra de trabajo para un negocio real. Sin inventar resultados: solo una web clara, ordenada y preparada para que sus clientes encuentren lo importante.</p>
+            </div>
+            <article className="project-showcase reveal delay-1" data-testid="project-excavaciones-el-cabo">
+              <div className="project-copy">
+                <span className="project-eyebrow">01 / Web real</span>
+                <h3>Excavaciones<br /><span>El Cabo</span></h3>
+                <p>El trabajo se orientó a presentar claramente el negocio, ordenar sus servicios, mostrar trabajos realizados y facilitar el contacto también desde móvil.</p>
+                <a className="button button-outline" href="https://excavacioneselcabo.es" target="_blank" rel="noopener noreferrer" data-testid="link-ver-proyecto">Ver proyecto <ArrowUpRight size={16} /></a>
+              </div>
+              <div className="project-device">
+                <div className="device-top"><span /><span /><span /><small>excavacioneselcabo.es</small></div>
+                <img src="/excavaciones-el-cabo-real.png" alt="Captura real de la web de Excavaciones El Cabo" />
+              </div>
             </article>
           </div>
         </section>
 
-        <section className="method section" aria-labelledby="method-title">
+        <section className="process section" aria-labelledby="process-title">
           <div className="container">
-            <div className="method-head reveal"><div><span className="eyebrow">Una forma sencilla de trabajar</span><h2 id="method-title" className="heading">Sin líos.<br /><em>Con método.</em></h2></div><p>Vamos paso a paso, con conversaciones claras y decisiones que puedas entender.</p></div>
-            <div className="steps">
-              {steps.map((step, index) => <article className={`step reveal delay-${Math.min(index, 2)}`} key={step.title} data-testid={`step-${step.title.toLowerCase()}`}><div className="step-dot" /><h3>{step.title}</h3><p>{step.copy}</p></article>)}
+            <div className="section-intro process-intro reveal">
+              <div><span className="section-label">Una forma sencilla de trabajar</span><h2 id="process-title">Sin líos. <span>Con método.</span></h2></div>
+              <p>Sabrás qué va a ocurrir desde el primer momento.</p>
+            </div>
+            <div className="process-track">
+              <div className="process-line" aria-hidden="true" />
+              {steps.map((step, index) => (
+                <article className={`process-step reveal delay-${Math.min(index, 2)}`} key={step.number} data-testid={`step-${step.title.toLowerCase()}`}>
+                  <span className="process-dot">{step.number}</span>
+                  <h3>{step.title}</h3>
+                  <p>{step.copy}</p>
+                </article>
+              ))}
             </div>
           </div>
         </section>
 
         <section className="about section" id="sobre-mi" aria-labelledby="about-title">
-          <div className="container about-grid">
-            <div className="photo-placeholder reveal" data-testid="placeholder-paula-photo"><div className="placeholder-inner"><div className="placeholder-mark"><Camera size={21} strokeWidth={1.5} /></div><span>Foto real de Paula pendiente</span></div></div>
-            <div className="about-copy reveal delay-1"><span className="eyebrow">Sobre mí</span><h2 id="about-title" className="heading">Soy Paula.</h2><p>Crear una buena web se parece un poco a preparar un espacio para recibir a alguien. Antes de pensar cómo decorarlo, necesitas saber quién va a entrar, qué necesita encontrar y qué quieres que sienta.</p><p>Por eso prefiero entender tu negocio antes de pensar en colores, imágenes o diseños. A partir de ahí construimos una web que tenga sentido para ti y para tus clientes.</p><div className="about-callout">La forma, las palabras y los detalles llegan después de entender bien a quién estamos invitando a pasar.</div></div>
+          <div className="container about-layout">
+            <div className="about-photo-wrap reveal">
+              <PhotoPlaceholder className="about-photo" label="Foto real de Paula pendiente" detail="Este espacio queda preparado para incorporar una fotografía auténtica." />
+              <span className="about-location">PGA Estudio Digital · Alicante</span>
+            </div>
+            <div className="about-copy reveal delay-1">
+              <span className="section-label">Sobre mí</span>
+              <h2 id="about-title">Soy Paula.</h2>
+              <p>Crear una buena web se parece un poco a preparar un espacio para recibir a alguien. Antes de pensar cómo decorarlo, necesitas saber quién va a entrar, qué necesita encontrar y qué quieres que sienta.</p>
+              <p>Por eso prefiero entender tu negocio antes de pensar en colores o imágenes. A partir de ahí construimos una web que tenga sentido para ti y para tus clientes.</p>
+              <div className="about-note">La forma, las palabras y los detalles llegan después de entender bien a quién estamos invitando a pasar.</div>
+            </div>
           </div>
         </section>
 
         <section className="contact section" id="contacto" aria-labelledby="contact-title">
-          <div className="container contact-grid">
-            <div className="contact-intro reveal"><span className="eyebrow">El siguiente paso</span><h2 id="contact-title" className="heading">¿Hablamos de tu proyecto?</h2><p>Cuéntame brevemente qué tienes entre manos, aunque todavía esté un poco desordenado. Lo ponemos en común y vemos qué necesita tu web.</p></div>
+          <div className="container contact-layout">
+            <div className="contact-copy reveal">
+              <span className="section-label">El siguiente paso</span>
+              <h2 id="contact-title">¿Hablamos de<br /><span>tu proyecto?</span></h2>
+              <p>No hace falta que lo tengas todo claro. Cuéntame qué tienes en mente y empezamos por ahí.</p>
+              <div className="contact-accent" aria-hidden="true"><span /><span /><span /></div>
+            </div>
             <div className="reveal delay-1">
-              {submitted ? <div className="form-success" role="status" data-testid="status-form-prepared"><h3>Formulario preparado.</h3><p>La integración de envío queda pendiente. Tus datos no se han enviado.</p><button className="button" type="button" onClick={resetForm} data-testid="button-edit-form">Revisar formulario <ArrowRight size={15} /></button></div> : <form className="form" onSubmit={handleSubmit} noValidate>
-                <div className="form-row">
-                  <div className="field"><label htmlFor="nombre">Nombre *</label><input id="nombre" value={form.nombre} onChange={(event) => updateField('nombre', event.target.value)} placeholder="Tu nombre" aria-invalid={Boolean(errors.nombre)} data-testid="input-nombre" />{errors.nombre && <span className="field-error">{errors.nombre}</span>}</div>
-                  <div className="field"><label htmlFor="negocio">Negocio</label><input id="negocio" value={form.negocio} onChange={(event) => updateField('negocio', event.target.value)} placeholder="Nombre del negocio" data-testid="input-negocio" /></div>
+              {submitted ? (
+                <div className="form-success" role="status" data-testid="status-form-prepared">
+                  <span className="success-check">✓</span>
+                  <h3>Formulario preparado.</h3>
+                  <p>La integración de envío queda pendiente. Tus datos no se han enviado.</p>
+                  <button className="button button-light" type="button" onClick={resetForm} data-testid="button-edit-form">Revisar formulario <ArrowRight size={15} /></button>
                 </div>
-                <div className="form-row">
-                  <div className="field"><label htmlFor="email">Email *</label><input id="email" type="email" value={form.email} onChange={(event) => updateField('email', event.target.value)} placeholder="tu@email.com" aria-invalid={Boolean(errors.email)} data-testid="input-email" />{errors.email && <span className="field-error">{errors.email}</span>}</div>
-                  <div className="field"><label htmlFor="telefono">Teléfono <span aria-hidden="true">(opcional)</span></label><input id="telefono" type="tel" value={form.telefono} onChange={(event) => updateField('telefono', event.target.value)} placeholder="Opcional" data-testid="input-telefono" /></div>
-                </div>
-                <div className="field"><label htmlFor="necesidades">Cuéntame brevemente qué necesitas *</label><textarea id="necesidades" value={form.necesidades} onChange={(event) => updateField('necesidades', event.target.value)} placeholder="Qué haces y qué te gustaría mejorar..." aria-invalid={Boolean(errors.necesidades)} data-testid="input-necesidades" />{errors.necesidades && <span className="field-error">{errors.necesidades}</span>}</div>
-                <button className="button" type="submit" data-testid="button-submit-form">Enviar proyecto <ArrowRight size={16} /></button>
-                <p className="form-footnote">Validación local. La integración de envío queda pendiente.</p>
-              </form>}
+              ) : (
+                <form className="form" onSubmit={handleSubmit} noValidate>
+                  <div className="form-heading"><span>Cuéntame lo que tienes en mente</span><small>* Campos obligatorios</small></div>
+                  <div className="form-row">
+                    <div className="field"><label htmlFor="nombre">Nombre *</label><input id="nombre" value={form.nombre} onChange={(event) => updateField('nombre', event.target.value)} placeholder="Tu nombre" aria-invalid={Boolean(errors.nombre)} data-testid="input-nombre" />{errors.nombre && <span className="field-error">{errors.nombre}</span>}</div>
+                    <div className="field"><label htmlFor="negocio">Negocio</label><input id="negocio" value={form.negocio} onChange={(event) => updateField('negocio', event.target.value)} placeholder="Nombre del negocio" data-testid="input-negocio" /></div>
+                  </div>
+                  <div className="form-row">
+                    <div className="field"><label htmlFor="email">Email *</label><input id="email" type="email" value={form.email} onChange={(event) => updateField('email', event.target.value)} placeholder="tu@email.com" aria-invalid={Boolean(errors.email)} data-testid="input-email" />{errors.email && <span className="field-error">{errors.email}</span>}</div>
+                    <div className="field"><label htmlFor="telefono">Teléfono <span>(opcional)</span></label><input id="telefono" type="tel" value={form.telefono} onChange={(event) => updateField('telefono', event.target.value)} placeholder="Opcional" data-testid="input-telefono" /></div>
+                  </div>
+                  <div className="field"><label htmlFor="necesidades">Cuéntame qué necesitas *</label><textarea id="necesidades" value={form.necesidades} onChange={(event) => updateField('necesidades', event.target.value)} placeholder="Qué haces y qué te gustaría mejorar..." aria-invalid={Boolean(errors.necesidades)} data-testid="input-necesidades" />{errors.necesidades && <span className="field-error">{errors.necesidades}</span>}</div>
+                  <button className="button button-gradient" type="submit" data-testid="button-submit-form">Enviar proyecto <ArrowRight size={16} /></button>
+                  <p className="form-footnote">Validación local. La integración de envío queda pendiente.</p>
+                </form>
+              )}
             </div>
           </div>
         </section>
@@ -206,8 +292,11 @@ function App() {
 
       <footer className="footer">
         <div className="container">
-          <div className="footer-top"><a className="brand" href="#inicio" data-testid="link-footer-brand"><span className="brand-mark">P</span><span>PGA Estudio Digital</span></a><nav className="footer-nav" aria-label="Navegación del pie"><a href="#servicios" data-testid="link-footer-servicios">Servicios</a><a href="#proyectos" data-testid="link-footer-proyectos">Proyectos</a><a href="#sobre-mi" data-testid="link-footer-sobre-mi">Sobre mí</a><a href="#contacto" data-testid="link-footer-contacto">Contacto</a></nav></div>
-           <div className="footer-bottom"><span>© {new Date().getFullYear()} PGA Estudio Digital · Alicante</span><span>Una web clara para un negocio real.</span></div>
+          <div className="footer-top">
+            <a className="brand" href="#inicio" data-testid="link-footer-brand"><span className="brand-wordmark">PGA</span><span className="brand-name">Estudio Digital</span></a>
+            <nav className="footer-nav" aria-label="Navegación del pie"><a href="#servicios" data-testid="link-footer-servicios">Servicios</a><a href="#proyectos" data-testid="link-footer-proyectos">Proyectos</a><a href="#sobre-mi" data-testid="link-footer-sobre-mi">Sobre mí</a><a href="#contacto" data-testid="link-footer-contacto">Contacto</a></nav>
+          </div>
+          <div className="footer-bottom"><span>© {new Date().getFullYear()} PGA Estudio Digital · Alicante</span><span>Una web clara para un negocio real.</span></div>
         </div>
       </footer>
     </div>
