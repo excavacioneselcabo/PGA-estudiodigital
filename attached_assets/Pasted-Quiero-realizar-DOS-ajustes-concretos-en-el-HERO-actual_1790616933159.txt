@@ -1,0 +1,175 @@
+Quiero realizar DOS ajustes concretos en el HERO actual de PGA Estudio Digital.
+
+IMPORTANTE:
+La dirección visual actual me gusta mucho.
+
+NO quiero un nuevo rediseño.
+
+Mantén exactamente:
+- el fondo berenjena/morado oscuro actual
+- el degradado morado → violeta → fucsia
+- el degradado actual de “verse bien.”
+- el degradado del botón principal
+- el titular actual
+- tipografías
+- textos
+- botones
+- estructura
+- navegación
+- resto de secciones
+
+Realiza únicamente los siguientes cambios:
+
+
+━━━━━━━━━━━━━━━━━━━━
+1. DAR MÁS PRESENCIA AL LOGO OFICIAL PGA
+━━━━━━━━━━━━━━━━━━━━
+
+El logo oficial PGA Estudio Digital que aparece actualmente en la cabecera se ve demasiado pequeño.
+
+Quiero darle más presencia.
+
+- Aumenta aproximadamente un 35–45 % su tamaño visual.
+- Mantén exactamente sus proporciones.
+- No lo deformes.
+- No lo recortes.
+- No modifiques sus colores.
+- No lo recrees mediante texto o CSS.
+- Utiliza el archivo oficial del logo que ya está cargado en el proyecto.
+- Conserva su degradado morado → violeta → fucsia.
+- Dale suficiente espacio alrededor.
+- Asegúrate de que tenga buena nitidez sobre el fondo oscuro.
+- No coloques un fondo blanco detrás.
+- No añadas sombras fuertes.
+
+En desktop debe reconocerse claramente el monograma PGA y “ESTUDIO DIGITAL”.
+
+En móvil debe adaptarse proporcionalmente, pero sin quedar diminuto.
+
+
+━━━━━━━━━━━━━━━━━━━━
+2. CREAR UN NUEVO ELEMENTO GRÁFICO PGA EN EL FONDO DEL HERO
+━━━━━━━━━━━━━━━━━━━━
+
+Quiero añadir un nuevo elemento visual al fondo del hero.
+
+IMPORTANTE:
+Este elemento NO existe actualmente en el proyecto, por lo que debes crearlo siguiendo estas instrucciones.
+
+Utiliza como referencia visual el MONOGRAMA del logo oficial PGA que ya está cargado en el proyecto.
+
+Quiero una reproducción visual del símbolo/monograma “PGA” del logo, pero utilizada como una enorme marca de agua en el fondo del hero.
+
+NO quiero simplemente escribir las letras “PGA” con una fuente normal.
+
+Quiero que el elemento conserve, en la medida técnicamente posible, la geometría y personalidad visual del monograma del logo oficial.
+
+COMPOSICIÓN:
+
+El monograma PGA debe aparecer ENORME.
+
+Debe ocupar aproximadamente entre el 65 % y el 85 % del ancho visual del hero.
+
+Puede extenderse más allá de los límites del contenedor y quedar parcialmente recortado por los laterales.
+
+Debe colocarse detrás de:
+
+- “PGA ESTUDIO DIGITAL · ALICANTE”
+- el titular “Tu negocio merece verse bien.”
+- el texto descriptivo
+- los botones
+
+Debe funcionar como una gran firma gráfica de fondo.
+
+
+ASPECTO DEL PGA DE FONDO:
+
+NO utilices el degradado fucsia intenso del logo para esta marca de agua.
+
+Quiero una versión monocromática muy sutil.
+
+Utiliza un violeta/berenjena ligeramente más claro que el fondo actual.
+
+Opacidad aproximada inicial:
+entre 5 % y 10 %.
+
+El resultado debe permitir distinguir la forma del PGA cuando observas la portada, pero nunca debe competir con el texto.
+
+Debe aportar:
+- profundidad
+- identidad
+- personalidad
+- reconocimiento de marca
+
+El efecto buscado es similar a una marca de agua editorial de gran formato.
+
+
+POSICIONAMIENTO:
+
+El PGA gigante puede estar ligeramente desplazado hacia la derecha y hacia arriba.
+
+No es necesario que se vea completo.
+
+De hecho, quiero que algunas partes del monograma puedan quedar fuera de pantalla o recortadas.
+
+Esto debe hacer que parezca un elemento gráfico de diseño y no simplemente un logotipo colocado detrás.
+
+
+IMPLEMENTACIÓN:
+
+Si el archivo oficial del logo permite aislar visualmente el monograma PGA sin incluir “ESTUDIO DIGITAL” ni el eslogan, utiliza ese símbolo.
+
+Si técnicamente no puedes aislarlo limpiamente, crea una versión gráfica basada en la geometría del monograma existente.
+
+NO utilices una fuente normal para escribir PGA.
+
+El elemento debe estar en una capa de fondo con pointer-events desactivados y sin afectar al layout.
+
+Debe permanecer siempre detrás del contenido.
+
+
+RESPONSIVE:
+
+En desktop:
+PGA muy grande, ocupando buena parte del hero.
+
+En móvil:
+mantener también el PGA gigante, pero reposicionarlo y escalarlo para que funcione como textura de fondo.
+
+NO lo elimines simplemente en móvil.
+
+Debe seguir aportando identidad sin dificultar la lectura.
+
+
+━━━━━━━━━━━━━━━━━━━━
+JERARQUÍA FINAL
+━━━━━━━━━━━━━━━━━━━━
+
+1. “Tu negocio merece verse bien.”
+   → protagonista absoluto.
+
+2. Logo oficial PGA de la cabecera.
+   → marca claramente reconocible.
+
+3. Monograma PGA gigante de fondo.
+   → firma gráfica sutil.
+
+4. Textos y CTAs.
+
+
+MUY IMPORTANTE:
+
+NO CAMBIES EL DEGRADADO ACTUAL DE “VERSE BIEN.”
+
+Me gusta exactamente como está ahora.
+
+Tampoco cambies el botón degradado.
+
+No rediseñes ninguna otra sección.
+
+Este cambio consiste únicamente en:
+
+1. Agrandar y dar más presencia al logo oficial de la cabecera.
+2. Crear desde cero el monograma PGA gigante y sutil detrás del hero.
+
+Al terminar, revisa el resultado tanto en desktop como en móvil.

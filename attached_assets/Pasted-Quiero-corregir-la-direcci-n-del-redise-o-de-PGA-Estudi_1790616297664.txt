@@ -1,0 +1,196 @@
+Quiero corregir la dirección del rediseño de PGA Estudio Digital.
+
+La web ACTUAL que ya existe debe seguir siendo la referencia principal de diseño.
+
+NO quiero sustituir su personalidad por una web blanca genérica de agencia digital.
+
+Quiero FUSIONAR el estilo actual con la nueva identidad visual de PGA Estudio Digital.
+
+DIRECCIÓN PRINCIPAL
+
+Conserva de la web actual:
+
+- El fondo berenjena/morado oscuro como color protagonista.
+- La estética editorial y moderna.
+- Los titulares grandes y contundentes.
+- El uso del monograma PGA gigante como elemento gráfico de fondo.
+- El alto contraste entre fondo oscuro y tipografía blanca.
+- La composición limpia, con bastante espacio.
+- La sensación de estudio creativo pequeño, cercano y profesional.
+- La frase principal “Tu negocio merece verse bien.”
+- La estructura visual fuerte que actualmente tiene la portada.
+
+NUEVA IDENTIDAD A INTEGRAR
+
+Integra el nuevo logotipo oficial PGA Estudio Digital que te he proporcionado.
+
+Su degradado morado → violeta → fucsia será ahora el principal color de acento de la página.
+
+IMPORTANTE:
+El amarillo de la identidad anterior debe desaparecer.
+
+Sustituye los elementos amarillos actuales por:
+- violeta
+- morado
+- fucsia suave
+- degradado morado/fucsia cuando tenga sentido.
+
+No abuses del degradado.
+
+PALETA
+
+Base principal:
+berenjena/morado muy oscuro.
+
+Texto:
+blanco y blanco ligeramente lavanda.
+
+Acentos:
+morado, violeta y fucsia del nuevo logotipo.
+
+Fondos secundarios:
+pueden utilizar blanco roto o lavanda extremadamente claro para crear contraste entre determinadas secciones.
+
+La web no debe ser completamente oscura, pero el fondo oscuro debe seguir siendo uno de los elementos más reconocibles de PGA.
+
+CABECERA
+
+Sustituye el texto actual
+“PGA / ESTUDIO DIGITAL”
+por el nuevo logotipo oficial.
+
+Ajusta el logo para que tenga excelente legibilidad y proporción.
+
+En móvil NO quiero que todos los enlaces de navegación aparezcan horizontalmente como ahora.
+
+Crear un menú hamburguesa limpio para móvil.
+
+PORTADA
+
+Mantener como concepto principal:
+
+“Tu negocio
+merece verse
+bien.”
+
+Mantener la composición tipográfica grande y editorial.
+
+Aplicar el nuevo degradado morado-fucsia a una parte estratégica del titular, como actualmente ocurre con “verse bien”.
+
+Mantener:
+
+“PGA ESTUDIO DIGITAL · ALICANTE”
+
+pero adaptándolo a la nueva paleta y eliminando el amarillo.
+
+Mantener como texto:
+
+“Diseñamos páginas web claras para que tus clientes entiendan lo que haces y sepan cómo contactar contigo.”
+
+Mantener CTA:
+
+“Hablemos de tu negocio”
+
+Rediseñar el botón con la nueva identidad:
+degradado morado-violeta-fucsia o una solución violeta sólida elegante.
+
+Eliminar el botón amarillo actual.
+
+MONOGRAMA DE FONDO
+
+Quiero conservar el concepto del PGA gigante que aparece detrás de la portada.
+
+Pero debe inspirarse en el NUEVO monograma PGA del logotipo.
+
+Debe aparecer a muy baja opacidad y actuar únicamente como elemento gráfico.
+
+No debe competir con el titular.
+
+RESTO DE LA WEB
+
+Extiende esta misma dirección visual a todas las secciones.
+
+No quiero que cada sección parezca pertenecer a una web diferente.
+
+Debe existir un sistema visual consistente:
+
+berenjena oscuro
++
+blanco
++
+morado/violeta
++
+fucsia
++
+mucho espacio
++
+tipografía editorial grande
++
+nuevo monograma PGA.
+
+En algunas secciones podemos invertir el diseño:
+
+fondo claro
++
+titulares berenjena
++
+acentos violeta/fucsia.
+
+Esto ayudará a dar ritmo a la página sin perder la identidad.
+
+SERVICIOS
+
+Evita las típicas tarjetas genéricas de agencia con muchas sombras.
+
+Prefiero bloques editoriales, numeración grande, líneas finas, iconografía mínima y buena jerarquía tipográfica.
+
+PROYECTOS
+
+Los proyectos reales deben ser muy visuales.
+
+Usar mockups o capturas grandes, nombre del proyecto, breve explicación y enlace.
+
+Excavaciones El Cabo debe mantenerse como proyecto real del portfolio.
+
+SOBRE PAULA
+
+Paula González Alonso debe sentirse como la persona detrás de PGA.
+
+Diseñar esta sección de manera humana y profesional, evitando estética corporativa artificial.
+
+FOOTER
+
+Utilizar el nuevo logo PGA.
+Fondo berenjena oscuro.
+Información esencial.
+Diseño limpio.
+
+RESPONSIVE
+
+La versión móvil es prioritaria.
+
+La captura actual muestra un problema importante:
+la navegación completa ocupa demasiado espacio horizontal en móvil.
+
+Solucionarlo mediante menú hamburguesa.
+
+Revisar además:
+- tamaño del nuevo logo
+- márgenes laterales
+- tamaño de titulares
+- saltos de línea
+- CTA
+- separación entre bloques
+- que nada desborde horizontalmente.
+
+OBJETIVO FINAL
+
+La nueva web debe sentirse como una evolución clara de la página actual, NO como una marca diferente.
+
+Quiero conservar el carácter visual que ya tenía PGA y profesionalizarlo mediante la nueva identidad.
+
+Concepto visual:
+
+EDITORIAL + CERCANA + PROFESIONAL + DIGITAL + CON PERSONALIDAD.
+
+Usa la página actual como base y el nuevo logotipo como evolución de la marca.

@@ -110,7 +110,7 @@ function App() {
       <header className="header">
         <nav className="container nav" aria-label="Navegación principal">
           <a className="brand" href="#inicio" onClick={closeMenu} data-testid="link-brand">
-            <img className="brand-logo" src="/pga-logo.jpg" alt="PGA Estudio Digital" />
+            <img className="brand-logo" src="/pga-logo.png" alt="PGA Estudio Digital" />
           </a>
           <div className={`nav-links ${menuOpen ? 'open' : ''}`}>
             <a className="nav-link active" href="#inicio" onClick={closeMenu} data-testid="link-inicio">Inicio</a>
@@ -118,9 +118,9 @@ function App() {
             <a className="nav-link" href="#proyectos" onClick={closeMenu} data-testid="link-proyectos">Proyectos</a>
             <a className="nav-link" href="#sobre-mi" onClick={closeMenu} data-testid="link-sobre-mi">Sobre mí</a>
             <a className="nav-link" href="#contacto" onClick={closeMenu} data-testid="link-contacto">Contacto</a>
-            <a className="button button-gradient mobile-cta" href="#contacto" onClick={closeMenu} data-testid="link-mobile-cta">Cuéntame tu proyecto <ArrowRight size={15} /></a>
+            <a className="button button-gradient mobile-cta" href="#contacto" onClick={closeMenu} data-testid="link-mobile-cta">Hablemos de tu negocio <ArrowRight size={15} /></a>
           </div>
-          <a className="button button-gradient desktop-cta" href="#contacto" data-testid="link-desktop-cta">Cuéntame tu proyecto <ArrowRight size={15} /></a>
+          <a className="button button-gradient desktop-cta" href="#contacto" data-testid="link-desktop-cta">Hablemos de tu negocio <ArrowRight size={15} /></a>
           <button className="menu-button" onClick={() => setMenuOpen((current) => !current)} aria-label={menuOpen ? 'Cerrar menú' : 'Abrir menú'} aria-expanded={menuOpen} data-testid="button-menu">
             {menuOpen ? <X size={22} /> : <Menu size={22} />}
           </button>
@@ -131,25 +131,22 @@ function App() {
         <section className="hero" id="inicio" aria-labelledby="hero-title">
           <div className="container hero-layout">
             <div className="hero-copy reveal">
-              <span className="kicker"><span className="kicker-dot" /> PGA Estudio Digital</span>
-              <h1 id="hero-title">Páginas web que hacen crecer <span>tu negocio.</span></h1>
-              <p className="hero-lede">Diseño web y soluciones digitales para autónomos y pequeñas empresas que quieren una presencia profesional y cercana.</p>
+              <span className="kicker"><span className="kicker-dot" /> PGA Estudio Digital · Alicante</span>
+              <h1 id="hero-title">Tu negocio<br />merece <span>verse bien.</span></h1>
+              <p className="hero-lede">Diseñamos páginas web claras para que tus clientes entiendan lo que haces y sepan cómo contactar contigo.</p>
               <div className="hero-actions">
-                <a className="button button-gradient" href="#contacto" data-testid="link-hero-primary">Cuéntame tu proyecto <ArrowRight size={16} /></a>
+                <a className="button button-gradient" href="#contacto" data-testid="link-hero-primary">Hablemos de tu negocio <ArrowRight size={16} /></a>
                 <a className="button button-outline" href="#proyectos" data-testid="link-hero-secondary">Ver proyectos <ArrowRight size={16} /></a>
               </div>
               <div className="hero-note"><span className="hero-note-line" /> Webs pensadas para personas, no para impresionar a otros diseñadores.</div>
             </div>
             <div className="hero-visual reveal delay-1">
+              <div className="hero-monogram" aria-hidden="true">PGA</div>
               <div className="hero-orbit orbit-one" />
               <div className="hero-orbit orbit-two" />
-              <PhotoPlaceholder
-                className="hero-photo"
-                label="Fotografía real pendiente"
-                detail="Un momento natural de un pequeño negocio."
-              />
               <div className="hero-card hero-card-top"><span className="card-caption">PGA / ESTUDIO DIGITAL</span><strong>Que tu web<br /><em>hable bien</em><br />de lo que haces.</strong></div>
               <div className="hero-card hero-card-bottom"><span className="mini-dot" /> Claridad que se nota</div>
+              <span className="hero-visual-label">Diseño web · Dirección digital</span>
             </div>
           </div>
         </section>
@@ -244,7 +241,7 @@ function App() {
             </div>
             <div className="about-copy reveal delay-1">
               <span className="section-label">Sobre mí</span>
-              <h2 id="about-title">Soy Paula.</h2>
+              <h2 id="about-title">Soy Paula<br /><span>González Alonso.</span></h2>
               <p>Crear una buena web se parece un poco a preparar un espacio para recibir a alguien. Antes de pensar cómo decorarlo, necesitas saber quién va a entrar, qué necesita encontrar y qué quieres que sienta.</p>
               <p>Por eso prefiero entender tu negocio antes de pensar en colores o imágenes. A partir de ahí construimos una web que tenga sentido para ti y para tus clientes.</p>
               <div className="about-note">La forma, las palabras y los detalles llegan después de entender bien a quién estamos invitando a pasar.</div>
@@ -292,7 +289,7 @@ function App() {
       <footer className="footer">
         <div className="container">
           <div className="footer-top">
-            <a className="brand" href="#inicio" data-testid="link-footer-brand"><img className="brand-logo" src="/pga-logo.jpg" alt="PGA Estudio Digital" /></a>
+            <a className="brand" href="#inicio" data-testid="link-footer-brand"><img className="brand-logo" src="/pga-logo.png" alt="PGA Estudio Digital" /></a>
             <nav className="footer-nav" aria-label="Navegación del pie"><a href="#servicios" data-testid="link-footer-servicios">Servicios</a><a href="#proyectos" data-testid="link-footer-proyectos">Proyectos</a><a href="#sobre-mi" data-testid="link-footer-sobre-mi">Sobre mí</a><a href="#contacto" data-testid="link-footer-contacto">Contacto</a></nav>
           </div>
           <div className="footer-bottom"><span>© {new Date().getFullYear()} PGA Estudio Digital · Alicante</span><span>Una web clara para un negocio real.</span></div>
