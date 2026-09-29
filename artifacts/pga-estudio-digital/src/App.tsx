@@ -181,7 +181,7 @@ function App() {
 
         <section className="story section" aria-labelledby="story-title">
           <div className="container story-layout">
-            <PhotoPlaceholder className="story-photo reveal" label="Fotografía natural pendiente" detail="Una escena cotidiana de un negocio real." />
+            <div className="story-photo story-photo-real reveal"><img src="https://images.unsplash.com/photo-1758876020967-e5a80e49463a?auto=format&fit=crop&fm=jpg&q=82&w=1600" alt="Profesional trabajando con un ordenador en una oficina luminosa" loading="lazy" /></div>
             <div className="story-copy reveal delay-1">
               <span className="section-label">La web como puerta de entrada</span>
               <h2 id="story-title">Tu negocio ya tiene una historia. <span>Hagamos que tu web esté a la altura.</span></h2>
