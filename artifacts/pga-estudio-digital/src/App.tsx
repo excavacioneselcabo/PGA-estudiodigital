@@ -108,7 +108,7 @@ function App() {
       <header className="header">
         <nav className="container nav" aria-label="Navegación principal">
           <a className="brand" href="#inicio" onClick={closeMenu} data-testid="link-brand">
-            <img className="brand-logo" src="/pga-logo.png" alt="PGA Estudio Digital" />
+            <span className="brand-wordmark" aria-label="PGA">PGA</span>
           </a>
           <div className={`nav-links ${menuOpen ? 'open' : ''}`}>
             <a className="nav-link active" href="#inicio" onClick={closeMenu} data-testid="link-inicio">Inicio</a>
@@ -287,7 +287,7 @@ function App() {
       <footer className="footer">
         <div className="container">
           <div className="footer-top">
-            <a className="brand" href="#inicio" data-testid="link-footer-brand"><img className="brand-logo" src="/pga-logo.png" alt="PGA Estudio Digital" /></a>
+            <a className="brand" href="#inicio" data-testid="link-footer-brand"><span className="brand-wordmark" aria-label="PGA">PGA</span></a>
             <nav className="footer-nav" aria-label="Navegación del pie"><a href="#servicios" data-testid="link-footer-servicios">Servicios</a><a href="#proyectos" data-testid="link-footer-proyectos">Proyectos</a><a href="#sobre-mi" data-testid="link-footer-sobre-mi">Sobre mí</a><a href="#contacto" data-testid="link-footer-contacto">Contacto</a></nav>
           </div>
           <div className="footer-bottom"><span>© {new Date().getFullYear()} PGA Estudio Digital · Alicante</span><span>Una web clara para un negocio real.</span></div>
