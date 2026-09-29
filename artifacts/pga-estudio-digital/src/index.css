@@ -740,3 +740,62 @@ animation: heroGradientMove 12s ease-in-out infinite alternate;
     max-width: 100%;
   }
 }
+
+
+/* PGA editorial buttons */
+.button {
+  min-height: 44px;
+  border-radius: 999px;
+  padding: 0 19px;
+  font-size: 10.5px;
+  letter-spacing: .015em;
+  box-shadow: none;
+}
+.button-gradient {
+  color: var(--aubergine);
+  border-color: rgba(255,255,255,.78);
+  background: rgba(255,255,255,.94);
+  box-shadow: none;
+}
+.button-gradient:hover {
+  color: var(--aubergine);
+  background: var(--pink);
+  border-color: var(--pink);
+  box-shadow: 0 8px 22px rgba(229,91,184,.16);
+}
+.button-outline {
+  position: relative;
+  min-height: 40px;
+  border: 0;
+  border-radius: 0;
+  padding: 0 4px 3px;
+  color: var(--pink);
+  background: transparent;
+}
+.button-outline::after {
+  content: '';
+  position: absolute;
+  right: 4px;
+  bottom: 0;
+  left: 4px;
+  height: 1px;
+  background: currentColor;
+  transform: scaleX(.42);
+  transform-origin: left;
+  transition: transform .35s cubic-bezier(.2,.7,.2,1);
+}
+.button-outline:hover {
+  color: var(--paper);
+  border-color: transparent;
+  background: transparent;
+}
+.button-outline:hover::after { transform: scaleX(1); }
+
+.hero-actions { gap: 24px; align-items: center; }
+.hero-actions .button-gradient { padding-inline: 22px; }
+.hero-actions .button-outline { padding-inline: 2px; }
+@media (max-width: 480px) {
+  .hero-actions { gap: 12px; align-items: flex-start; }
+  .hero-actions .button { width: auto; }
+  .hero-actions .button-gradient { min-width: 0; }
+}
