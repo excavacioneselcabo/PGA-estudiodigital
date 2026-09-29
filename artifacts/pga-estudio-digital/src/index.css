@@ -644,3 +644,25 @@ animation: heroGradientMove 12s ease-in-out infinite alternate;
   .hero::after,.hero-monogram,.orbit-one,.orbit-two,.hero-card-top,.hero-card-bottom,
   .positioning-mark span,.contact-accent span,.project-device { animation:none !important; }
 }
+
+
+/* Mobile hero overflow fix — keep animated headline fully visible */
+@media (max-width: 900px) {
+  .hero-copy { min-width: 0; width: 100%; }
+  .hero h1 {
+    max-width: 100%;
+    font-size: clamp(43px, 9.7vw, 64px);
+    letter-spacing: -.06em;
+    overflow-wrap: normal;
+    word-break: normal;
+  }
+  .hero h1 span { display: inline; }
+  .hero .reveal-left { transform: translateY(42px); }
+}
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: clamp(40px, 11.2vw, 53px);
+    letter-spacing: -.055em;
+    line-height: 1.02;
+  }
+}
