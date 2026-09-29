@@ -5,9 +5,7 @@ import {
   Camera,
   Compass,
   LayoutTemplate,
-  Menu,
   RefreshCw,
-  X,
 } from 'lucide-react';
 import './index.css';
 
@@ -122,7 +120,7 @@ function App() {
           </div>
           <a className="button button-gradient desktop-cta" href="#contacto" data-testid="link-desktop-cta">Hablemos de tu negocio <ArrowRight size={15} /></a>
           <button className="menu-button" onClick={() => setMenuOpen((current) => !current)} aria-label={menuOpen ? 'Cerrar menú' : 'Abrir menú'} aria-expanded={menuOpen} data-testid="button-menu">
-            {menuOpen ? <X size={22} /> : <Menu size={22} />}
+            <span className={`menu-icon ${menuOpen ? 'is-open' : ''}`} aria-hidden="true"><span /><span /><span /></span>
           </button>
         </nav>
       </header>
@@ -130,7 +128,7 @@ function App() {
       <main>
         <section className="hero" id="inicio" aria-labelledby="hero-title">
           <div className="container hero-layout">
-            <div className="hero-copy reveal">
+            <div className="hero-copy reveal reveal-left">
               <span className="kicker"><span className="kicker-dot" /> PGA Estudio Digital · Alicante</span>
               <h1 id="hero-title">Tu negocio<br />merece <span>verse bien.</span></h1>
               <p className="hero-lede">Diseñamos páginas web claras para que tus clientes entiendan lo que haces y sepan cómo contactar contigo.</p>
@@ -140,7 +138,7 @@ function App() {
               </div>
               <div className="hero-note"><span className="hero-note-line" /> Webs pensadas para personas, no para impresionar a otros diseñadores.</div>
             </div>
-            <div className="hero-visual reveal delay-1">
+            <div className="hero-visual reveal reveal-scale delay-1">
               <div className="hero-monogram" aria-hidden="true">PGA</div>
               <div className="hero-orbit orbit-one" />
               <div className="hero-orbit orbit-two" />
@@ -152,7 +150,7 @@ function App() {
         </section>
 
         <section className="positioning section-small" aria-labelledby="positioning-title">
-          <div className="container positioning-layout reveal">
+          <div className="container positioning-layout reveal reveal-right">
             <span className="section-label">Una idea importante</span>
             <div className="positioning-copy">
               <h2 id="positioning-title">No necesitas parecer una gran empresa. <span>Necesitas verte como el negocio que ya eres.</span></h2>
@@ -163,7 +161,7 @@ function App() {
 
         <section className="services section" id="servicios" aria-labelledby="services-title">
           <div className="container">
-            <div className="section-intro reveal">
+            <div className="section-intro reveal reveal-left">
               <div><span className="section-label">Lo que puedo hacer por ti</span><h2 id="services-title">Una web que trabaja<br /><span>en tu dirección.</span></h2></div>
               <p>Lo importante no es tener más páginas. Es que tu negocio se entienda, genere confianza y facilite el contacto.</p>
             </div>
@@ -195,11 +193,11 @@ function App() {
 
         <section className="projects section" id="proyectos" aria-labelledby="projects-title">
           <div className="container">
-            <div className="section-intro project-intro reveal">
+            <div className="section-intro project-intro reveal reveal-left">
               <div><span className="section-label">Un proyecto real</span><h2 id="projects-title">Proyectos con los pies <span>en la tierra.</span></h2></div>
               <p>Una muestra de trabajo para un negocio real. Sin inventar resultados: solo una web clara, ordenada y preparada para que sus clientes encuentren lo importante.</p>
             </div>
-            <article className="project-showcase reveal delay-1" data-testid="project-excavaciones-el-cabo">
+            <article className="project-showcase reveal reveal-scale delay-1" data-testid="project-excavaciones-el-cabo">
               <div className="project-copy">
                 <span className="project-eyebrow">01 / Web real</span>
                 <h3>Excavaciones<br /><span>El Cabo</span></h3>
