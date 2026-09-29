@@ -551,3 +551,10 @@ animation: heroGradientMove 12s ease-in-out infinite alternate;
     background-position: 100% 50%;
   }
 }
+
+@media (max-width: 600px) {
+  .reveal {
+    transform: translateY(28px);
+    transition: opacity 0.7s ease, transform 0.7s ease;
+  }
+}
