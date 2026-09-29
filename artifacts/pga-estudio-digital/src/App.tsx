@@ -129,22 +129,21 @@ function App() {
         <section className="hero" id="inicio" aria-labelledby="hero-title">
           <div className="container hero-layout">
             <div className="hero-copy reveal reveal-left">
-              <span className="kicker"><span className="kicker-dot" /> PGA Estudio Digital · Alicante</span>
-              <h1 id="hero-title">Tu negocio<br />merece <span>verse bien.</span></h1>
-              <p className="hero-lede">Diseñamos páginas web claras para que tus clientes entiendan lo que haces y sepan cómo contactar contigo.</p>
+              <h1 id="hero-title">Tu negocio ya tiene valor.<br /><span>Hagamos que también se vea.</span></h1>
+              <p className="hero-lede">Diseño web para autónomos y pequeñas empresas que quieren transmitir confianza, explicar bien lo que hacen y convertir visitas en contactos.</p>
               <div className="hero-actions">
-                <a className="button button-gradient" href="#contacto" data-testid="link-hero-primary">Hablemos de tu negocio <ArrowRight size={16} /></a>
+                <a className="button button-gradient" href="#contacto" data-testid="link-hero-primary">Cuéntame tu proyecto <ArrowRight size={16} /></a>
                 <a className="button button-outline" href="#proyectos" data-testid="link-hero-secondary">Ver proyectos <ArrowRight size={16} /></a>
               </div>
-              <div className="hero-note"><span className="hero-note-line" /> Webs pensadas para personas, no para impresionar a otros diseñadores.</div>
+              <div className="hero-note"><span className="hero-note-line" /> Estrategia, diseño y una presencia digital con identidad propia.</div>
             </div>
             <div className="hero-visual reveal reveal-scale delay-1">
               <div className="hero-monogram" aria-hidden="true">PGA</div>
               <div className="hero-orbit orbit-one" />
               <div className="hero-orbit orbit-two" />
-              <div className="hero-card hero-card-top"><span className="card-caption">PGA / ESTUDIO DIGITAL</span><strong>Que tu web<br /><em>hable bien</em><br />de lo que haces.</strong></div>
-              <div className="hero-card hero-card-bottom"><span className="mini-dot" /> Claridad que se nota</div>
-              <span className="hero-visual-label">Diseño web · Dirección digital</span>
+              <div className="hero-card hero-card-top"><span className="card-caption">PGA / IDENTIDAD DIGITAL</span><strong>Una presencia<br /><em>con intención</em><br />y personalidad.</strong></div>
+              <div className="hero-card hero-card-bottom"><span className="mini-dot" /> Diseño · Web · Identidad</div>
+              <span className="hero-visual-label">PGA · Estudio Digital</span>
             </div>
           </div>
         </section>
