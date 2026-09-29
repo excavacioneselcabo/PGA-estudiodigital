@@ -698,3 +698,45 @@ animation: heroGradientMove 12s ease-in-out infinite alternate;
     line-height: 1.75;
   }
 }
+
+
+/* Process mobile alignment fix */
+@media (max-width: 900px) {
+  .process-track {
+    grid-template-columns: 1fr;
+    gap: 0;
+    padding-left: 0;
+  }
+  .process-line {
+    top: 18px;
+    bottom: 18px;
+    left: 17px;
+    right: auto;
+    width: 1px;
+    height: auto;
+    transform: none;
+    background: var(--lavender-deep);
+  }
+  .process-step,
+  .process-step + .process-step,
+  .process-step:nth-child(odd),
+  .process-step:nth-child(n+3) {
+    min-height: 0;
+    padding: 0 0 44px 62px;
+    border: 0;
+  }
+  .process-step:last-child { padding-bottom: 0; }
+  .process-dot {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: var(--lavender);
+  }
+  .process-step h3 {
+    margin: 0 0 8px;
+    padding-top: 2px;
+  }
+  .process-step p {
+    max-width: 100%;
+  }
+}
