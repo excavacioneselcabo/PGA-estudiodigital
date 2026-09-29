@@ -206,7 +206,7 @@ function App() {
               </div>
               <div className="project-device">
                 <div className="device-top"><span /><span /><span /><small>excavacioneselcabo.es</small></div>
-                <img src="/excavaciones-el-cabo-real.png" alt="Captura real de la web de Excavaciones El Cabo" />
+                <img src="/Captura de pantalla 2026-09-29 a las 14.19.12.png" alt="Captura real de la web de Excavaciones El Cabo" />
               </div>
             </article>
           </div>
