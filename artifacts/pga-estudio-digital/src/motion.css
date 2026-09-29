@@ -1,0 +1,82 @@
+/* PGA motion layer — varied, deliberate transitions */
+.reveal { transition-duration: 1.2s; transition-timing-function: cubic-bezier(.16,.84,.32,1); }
+.reveal-left { transform: translate3d(-52px,10px,0) rotate(-1deg); }
+.reveal-right { transform: translate3d(52px,10px,0) rotate(1deg); }
+.reveal-scale { transform: translateY(24px) scale(.92); }
+.delay-1 { transition-delay: .14s; }
+.delay-2 { transition-delay: .28s; }
+
+.hero-monogram { animation: pgaMonogramFloat 8s ease-in-out infinite; will-change: transform; }
+.orbit-one { animation: pgaOrbitOne 20s linear infinite; }
+.orbit-two { animation: pgaOrbitTwo 26s linear infinite reverse; }
+.hero-card-top { animation: pgaCardFloat 5.5s ease-in-out infinite; }
+.hero-card-bottom { animation: pgaCardFloatAlt 6.4s ease-in-out .8s infinite; }
+.kicker-dot, .mini-dot { animation: pgaPulse 2.8s ease-in-out infinite; }
+
+.service-block { transition: transform .55s cubic-bezier(.2,.8,.2,1), border-color .4s ease, background .4s ease, box-shadow .55s ease; }
+.service-block:hover { transform: translateY(-9px) scale(1.012); box-shadow: 0 24px 55px rgba(0,0,0,.16); }
+.service-block::after { transition: transform 1.1s cubic-bezier(.2,.8,.2,1); }
+.service-block:hover::after { transform: translate(-18px,-14px) scale(1.12); }
+
+.project-showcase { perspective: 1200px; }
+.project-device { transform: rotateY(-1.5deg) rotateX(.7deg); transition: transform 1s cubic-bezier(.2,.8,.2,1), box-shadow 1s ease; }
+.project-showcase:hover .project-device { transform: rotateY(1.5deg) rotateX(-.5deg) translateY(-7px); box-shadow: 21px 23px 0 rgba(229,91,184,.4); }
+.project-device img { transition: transform 1.6s cubic-bezier(.2,.8,.2,1); }
+.project-showcase:hover .project-device img { transform: scale(1.025); }
+
+.process-step { transition: transform .55s cubic-bezier(.2,.8,.2,1); }
+.process-step:hover { transform: translateY(-7px); }
+.process-dot { transition: transform .5s ease, background .5s ease, color .5s ease; }
+.process-step:hover .process-dot { transform: scale(1.12) rotate(7deg); background: var(--violet); color: var(--paper); }
+
+.story-photo, .about-photo { transition: transform .9s cubic-bezier(.2,.8,.2,1), box-shadow .9s ease; }
+.story-photo:hover, .about-photo:hover { transform: scale(1.018) rotate(-.35deg); box-shadow: 0 25px 55px rgba(50,16,73,.13); }
+.positioning-mark span, .contact-accent span { animation: pgaMarkerWave 3.8s ease-in-out infinite; }
+.positioning-mark span:nth-child(2), .contact-accent span:nth-child(2) { animation-delay: .18s; }
+.positioning-mark span:nth-child(3), .contact-accent span:nth-child(3) { animation-delay: .36s; }
+
+@keyframes pgaMonogramFloat {
+  0%,100% { transform: translate(-51%,-48%) rotate(-1deg) scale(1); }
+  50% { transform: translate(-51%,-52%) rotate(1.2deg) scale(1.035); }
+}
+@keyframes pgaOrbitOne {
+  from { transform: rotate(19deg); }
+  to { transform: rotate(379deg); }
+}
+@keyframes pgaOrbitTwo {
+  from { transform: rotate(-25deg); }
+  to { transform: rotate(335deg); }
+}
+@keyframes pgaCardFloat {
+  0%,100% { transform: translate3d(0,0,0) rotate(-.3deg); }
+  50% { transform: translate3d(7px,-13px,0) rotate(.7deg); }
+}
+@keyframes pgaCardFloatAlt {
+  0%,100% { transform: translate3d(0,0,0) rotate(.25deg); }
+  50% { transform: translate3d(-8px,-10px,0) rotate(-.65deg); }
+}
+@keyframes pgaPulse {
+  0%,100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(229,91,184,.18); }
+  50% { transform: scale(1.16); box-shadow: 0 0 0 7px rgba(229,91,184,0); }
+}
+@keyframes pgaMarkerWave {
+  0%,100% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+}
+
+@media (max-width: 600px) {
+  .reveal { transition-duration: 1.05s; }
+  .reveal-left { transform: translate3d(-32px,8px,0); }
+  .reveal-right { transform: translate3d(32px,8px,0); }
+  .reveal-scale { transform: translateY(20px) scale(.94); }
+  .hero-card-top { animation-duration: 6.2s; }
+  .hero-card-bottom { animation-duration: 7s; }
+  .service-block:hover, .process-step:hover, .story-photo:hover, .about-photo:hover { transform: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-monogram, .hero-orbit, .hero-card, .kicker-dot, .mini-dot,
+  .positioning-mark span, .contact-accent span { animation: none !important; }
+  .project-device, .project-device img, .service-block, .process-step,
+  .story-photo, .about-photo { transition: none !important; transform: none !important; }
+}
