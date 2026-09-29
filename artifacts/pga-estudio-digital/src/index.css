@@ -666,3 +666,35 @@ animation: heroGradientMove 12s ease-in-out infinite alternate;
     line-height: 1.02;
   }
 }
+
+
+/* Global reveal clipping fix — horizontal motion must stay inside the viewport */
+.reveal-left,
+.reveal-right {
+  transform: translateY(44px);
+}
+.reveal.is-visible {
+  transform: translate3d(0,0,0) rotate(0) scale(1);
+}
+.contact-copy,
+.contact-copy h2,
+.contact-copy > p,
+.section-intro,
+.positioning-layout {
+  min-width: 0;
+  max-width: 100%;
+}
+.contact h2,
+.contact-copy > p {
+  overflow-wrap: break-word;
+}
+@media (max-width: 900px) {
+  .contact h2 {
+    font-size: clamp(40px, 10.5vw, 58px);
+    letter-spacing: -.06em;
+  }
+  .contact-copy > p {
+    font-size: 14px;
+    line-height: 1.75;
+  }
+}
