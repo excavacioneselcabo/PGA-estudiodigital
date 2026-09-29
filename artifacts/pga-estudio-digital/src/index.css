@@ -596,3 +596,51 @@ animation: heroGradientMove 12s ease-in-out infinite alternate;
 /* Minimal PGA wordmark */
 .brand-wordmark { display:inline-block; font-family:var(--font-display); font-size:2rem; font-weight:800; line-height:1; letter-spacing:-.08em; background:linear-gradient(110deg,#e55bb8,#8d67f5); -webkit-background-clip:text; background-clip:text; color:transparent; }
 @media (max-width:600px){ .brand-wordmark{font-size:1.8rem;} }
+
+
+/* PGA enhanced motion — 2026-09-29 */
+@keyframes pgaOrbitOne { from { transform: rotate(19deg); } to { transform: rotate(379deg); } }
+@keyframes pgaOrbitTwo { from { transform: rotate(-25deg); } to { transform: rotate(-385deg); } }
+@keyframes pgaFloatTop { 0%,100% { transform: translate3d(0,0,0) rotate(-1deg); } 50% { transform: translate3d(0,-20px,0) rotate(1deg); } }
+@keyframes pgaFloatBottom { 0%,100% { transform: translate3d(0,0,0); } 50% { transform: translate3d(-10px,14px,0); } }
+@keyframes pgaMonogramPulse { 0%,100% { opacity:.11; transform:translate(-51%,-48%) scale(.97); } 50% { opacity:.21; transform:translate(-51%,-48%) scale(1.045); } }
+@keyframes pgaGlowDrift { 0%,100% { transform:translate3d(0,0,0) scale(1); } 50% { transform:translate3d(-38px,-24px,0) scale(1.08); } }
+@keyframes pgaMarkSlide { 0%,100% { transform:translateX(0); } 50% { transform:translateX(16px); } }
+@keyframes pgaProjectBreath { 0%,100% { transform:translateY(0) scale(1); } 50% { transform:translateY(-6px) scale(1.006); } }
+
+.hero::after { animation:pgaGlowDrift 8s ease-in-out infinite; }
+.hero-monogram { animation:pgaMonogramPulse 6.5s ease-in-out infinite; }
+.orbit-one { animation:pgaOrbitOne 24s linear infinite; }
+.orbit-two { animation:pgaOrbitTwo 32s linear infinite; }
+.hero-card-top { animation:pgaFloatTop 5.2s ease-in-out infinite; }
+.hero-card-bottom { animation:pgaFloatBottom 6s ease-in-out infinite; }
+.positioning-mark span:nth-child(2), .contact-accent span:nth-child(2) { animation:pgaMarkSlide 3.8s ease-in-out infinite; }
+.project-device { animation:pgaProjectBreath 7s ease-in-out infinite; }
+
+.reveal { transform:translateY(52px); transition:opacity 1.15s ease, transform 1.15s cubic-bezier(.16,.72,.22,1); }
+.reveal-left { transform:translateX(-70px) rotate(-1deg); }
+.reveal-right { transform:translateX(70px) rotate(1deg); }
+.reveal-scale { transform:translateY(26px) scale(.89); }
+.reveal.is-visible { opacity:1; transform:translate(0,0) rotate(0) scale(1); }
+.delay-1 { transition-delay:.16s; }
+.delay-2 { transition-delay:.32s; }
+
+.service-block { transition:transform .55s cubic-bezier(.2,.75,.2,1), border-color .35s ease, background .35s ease, box-shadow .55s ease; }
+.service-block:hover { transform:translateY(-11px) scale(1.012); box-shadow:0 22px 42px rgba(0,0,0,.16); }
+.story-photo, .about-photo { transition:transform .8s cubic-bezier(.2,.7,.2,1), box-shadow .8s ease; }
+.story-photo:hover, .about-photo:hover { transform:scale(1.025); box-shadow:0 24px 55px rgba(50,16,73,.16); }
+.project-device { transition:box-shadow .6s ease, filter .6s ease; }
+.project-device:hover { box-shadow:22px 26px 0 rgba(229,91,184,.28); filter:saturate(1.06); }
+
+@media (max-width:900px) {
+  .reveal { transform:translateY(42px); transition-duration:1s; }
+  .reveal-left { transform:translateX(-38px); }
+  .reveal-right { transform:translateX(38px); }
+  .hero-card-top { animation-duration:5.8s; }
+  .hero-card-bottom { animation-duration:6.6s; }
+  .project-device { animation-duration:7.8s; }
+}
+@media (prefers-reduced-motion:reduce) {
+  .hero::after,.hero-monogram,.orbit-one,.orbit-two,.hero-card-top,.hero-card-bottom,
+  .positioning-mark span,.contact-accent span,.project-device { animation:none !important; }
+}
