@@ -60,6 +60,7 @@ function PhotoPlaceholder({ label, detail, className = '' }: { label: string; de
 }
 
 function App() {
+  const [cookieNotice, setCookieNotice] = useState(() => localStorage.getItem('pga-cookie-choice') !== 'accepted');
   const [menuOpen, setMenuOpen] = useState(false);
   const [submitted, setSubmitted] = useState(false);
   const [errors, setErrors] = useState<Record<string, string>>({});
@@ -290,8 +291,15 @@ function App() {
             <nav className="footer-nav" aria-label="Navegación del pie"><a href="#servicios" data-testid="link-footer-servicios">Servicios</a><a href="#proyectos" data-testid="link-footer-proyectos">Proyectos</a><a href="#sobre-mi" data-testid="link-footer-sobre-mi">Sobre mí</a><a href="#contacto" data-testid="link-footer-contacto">Contacto</a></nav>
           </div>
           <div className="footer-bottom"><span>© {new Date().getFullYear()} PGA Estudio Digital · Alicante</span><span>Una web clara para un negocio real.</span></div>
+          <nav className="footer-legal" aria-label="Información legal"><a href="/aviso-legal.html">Aviso legal</a><a href="/privacidad.html">Privacidad</a><a href="/cookies.html">Cookies</a></nav>
         </div>
       </footer>
+      {cookieNotice && (
+        <aside className="cookie-notice" aria-label="Aviso de cookies">
+          <p><strong>Cookies</strong><br />Usamos únicamente almacenamiento local necesario para recordar tu elección. No utilizamos cookies analíticas ni publicitarias. <a href="/cookies.html">Política de cookies</a></p>
+          <div className="cookie-actions"><button type="button" onClick={() => { localStorage.setItem('pga-cookie-choice','accepted'); setCookieNotice(false); }}>Entendido</button><button type="button" onClick={() => setCookieNotice(false)}>Cerrar</button></div>
+        </aside>
+      )}
     </div>
   );
 }
