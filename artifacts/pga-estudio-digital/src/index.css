@@ -991,3 +991,7 @@ html, body, #root, .site-shell { width:100%; max-width:100%; overflow-x:hidden; 
 @media (max-width:900px) {
   .story-photo-real img { min-height:330px; }
 }
+
+
+/* Legal links and cookie notice */
+.footer-legal{display:flex;gap:18px;flex-wrap:wrap;margin-top:18px;font-size:.82rem}.footer-legal a{text-decoration:underline;text-underline-offset:3px}.cookie-notice{position:fixed;z-index:9999;left:22px;right:22px;bottom:22px;max-width:760px;margin:auto;background:#24152f;color:#fff;padding:22px 24px;box-shadow:0 16px 48px rgba(0,0,0,.28);display:flex;align-items:center;justify-content:space-between;gap:28px}.cookie-notice p{margin:0;font-size:14px;line-height:1.5;color:#f3eafa}.cookie-notice strong{color:#fff;font-size:16px}.cookie-notice a{color:#fff;text-decoration:underline}.cookie-actions{display:flex;gap:9px;flex:none}.cookie-actions button{border:1px solid #fff;background:transparent;color:#fff;padding:11px 15px;font-weight:800;cursor:pointer}.cookie-actions button:first-child{background:#c13cff;border-color:#c13cff}@media(max-width:720px){.cookie-notice{left:12px;right:12px;bottom:12px;display:block;padding:20px}.cookie-actions{margin-top:16px}.cookie-actions button{flex:1}.footer-legal{gap:12px 18px}}
