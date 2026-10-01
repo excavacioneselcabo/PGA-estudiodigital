@@ -194,8 +194,8 @@ function App() {
         <section className="projects section" id="proyectos" aria-labelledby="projects-title">
           <div className="container">
             <div className="section-intro project-intro reveal reveal-left">
-              <div><span className="section-label">Un proyecto real</span><h2 id="projects-title">Proyectos con los pies <span>en la tierra.</span></h2></div>
-              <p>Una muestra de trabajo para un negocio real. Sin inventar resultados: solo una web clara, ordenada y preparada para que sus clientes encuentren lo importante.</p>
+              <div><span className="section-label">Webs creadas</span><h2 id="projects-title">Proyectos con los pies <span>en la tierra.</span></h2></div>
+              <p>Proyectos reales creados para negocios de Alicante, con una identidad y una estructura adaptadas a lo que necesita cada marca.</p>
             </div>
             <article className="project-showcase reveal reveal-scale delay-1" data-testid="project-excavaciones-el-cabo">
               <div className="project-copy">
@@ -207,6 +207,24 @@ function App() {
               <div className="project-device">
                 <div className="device-top"><span /><span /><span /><small>excavacioneselcabo.es</small></div>
                 <img src="/Captura de pantalla 2026-09-29 a las 14.19.12.png" alt="Captura real de la web de Excavaciones El Cabo" />
+              </div>
+            </article>
+
+            <article className="project-showcase project-showcase-manitas reveal reveal-scale delay-1" data-testid="project-manitas-en-alicante">
+              <div className="project-copy">
+                <span className="project-eyebrow">02 / Web real</span>
+                <h3>Manitas<br /><span>en Alicante</span></h3>
+                <p>Una web orientada a negocios y particulares, construida alrededor de una idea clara: agilidad. Servicios, sectores y contacto se organizan para que encontrar una solución resulte sencillo.</p>
+                <a className="button button-outline" href="https://manitasenalicante.es" target="_blank" rel="noopener noreferrer" data-testid="link-ver-proyecto-manitas">Ver proyecto <ArrowUpRight size={16} /></a>
+              </div>
+              <div className="project-device project-device-manitas">
+                <div className="device-top"><span /><span /><span /><small>manitasenalicante.es</small></div>
+                <div className="manitas-preview" aria-label="Vista gráfica de Manitas en Alicante">
+                  <div className="manitas-preview-brand">MANITAS <em>EN ALICANTE</em></div>
+                  <strong>El manitas<br />de tu negocio.</strong>
+                  <span>Y el de tu casa también.</span>
+                  <div className="manitas-preview-line" />
+                </div>
               </div>
             </article>
           </div>
