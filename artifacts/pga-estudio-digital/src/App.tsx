@@ -219,7 +219,7 @@ function App() {
               </div>
               <div className="project-device project-device-manitas">
                 <div className="device-top"><span /><span /><span /><small>manitasenalicante.es</small></div>
-                <img className="manitas-project-shot" src="/Captura%20de%20pantalla%202026-10-01%20a%20las%2020.44.17.png" alt="Página web de Manitas en Alicante" />
+                <img className="manitas-project-shot" src="https://raw.githubusercontent.com/excavacioneselcabo/PGA-estudiodigital/main/Captura%20de%20pantalla%202026-10-01%20a%20las%2020.44.17.png" alt="Página web de Manitas en Alicante" />
               </div>
             </article>
           </div>
