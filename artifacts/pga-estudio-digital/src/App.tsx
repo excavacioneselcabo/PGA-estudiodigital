@@ -219,12 +219,7 @@ function App() {
               </div>
               <div className="project-device project-device-manitas">
                 <div className="device-top"><span /><span /><span /><small>manitasenalicante.es</small></div>
-                <div className="manitas-preview" aria-label="Vista gráfica de Manitas en Alicante">
-                  <div className="manitas-preview-brand">MANITAS <em>EN ALICANTE</em></div>
-                  <strong>El manitas<br />de tu negocio.</strong>
-                  <span>Y el de tu casa también.</span>
-                  <div className="manitas-preview-line" />
-                </div>
+                <img className="manitas-project-shot" src="/Captura%20de%20pantalla%202026-10-01%20a%20las%2020.44.17.png" alt="Página web de Manitas en Alicante" />
               </div>
             </article>
           </div>
