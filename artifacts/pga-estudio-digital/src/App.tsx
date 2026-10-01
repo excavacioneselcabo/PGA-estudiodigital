@@ -109,7 +109,7 @@ function App() {
       <header className="header">
         <nav className="container nav" aria-label="Navegación principal">
           <a className="brand" href="#inicio" onClick={closeMenu} data-testid="link-brand">
-            <span className="brand-wordmark" aria-label="PGA">PGA</span>
+            <span className="brand-wordmark" aria-label="PGA"><span>P</span><span>G</span><span>A</span></span>
           </a>
           <div className={`nav-links ${menuOpen ? 'open' : ''}`}>
             <a className="nav-link active" href="#inicio" onClick={closeMenu} data-testid="link-inicio">Inicio</a>
@@ -182,7 +182,7 @@ function App() {
 
         <section className="story section" aria-labelledby="story-title">
           <div className="container story-layout">
-            <div className="story-photo story-photo-real reveal"><img src="https://images.unsplash.com/photo-1758876020967-e5a80e49463a?auto=format&fit=crop&fm=jpg&q=82&w=1600" alt="Profesional trabajando con un ordenador en una oficina luminosa" loading="lazy" /></div>
+            <div className="story-photo story-photo-real reveal"><img src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&fm=jpg&q=82&w=1600" alt="Espacio de trabajo moderno y luminoso" loading="lazy" /></div>
             <div className="story-copy reveal delay-1">
               <span className="section-label">La web como puerta de entrada</span>
               <h2 id="story-title">Tu negocio ya tiene una historia. <span>Hagamos que tu web esté a la altura.</span></h2>
@@ -197,7 +197,7 @@ function App() {
               <div><span className="section-label">Webs creadas</span><h2 id="projects-title">Proyectos con los pies <span>en la tierra.</span></h2></div>
               <p>Proyectos reales creados para negocios de Alicante, con una identidad y una estructura adaptadas a lo que necesita cada marca.</p>
             </div>
-            <article className="project-showcase reveal reveal-scale delay-1" data-testid="project-excavaciones-el-cabo">
+            <article className="project-showcase project-showcase-excavaciones reveal reveal-scale delay-1" data-testid="project-excavaciones-el-cabo">
               <div className="project-copy">
                 <span className="project-eyebrow">01 / Web real</span>
                 <h3>Excavaciones<br /><span>El Cabo</span></h3>
@@ -300,7 +300,7 @@ function App() {
       <footer className="footer">
         <div className="container">
           <div className="footer-top">
-            <a className="brand" href="#inicio" data-testid="link-footer-brand"><span className="brand-wordmark" aria-label="PGA">PGA</span></a>
+            <a className="brand" href="#inicio" data-testid="link-footer-brand"><span className="brand-wordmark" aria-label="PGA"><span>P</span><span>G</span><span>A</span></span></a>
             <nav className="footer-nav" aria-label="Navegación del pie"><a href="#servicios" data-testid="link-footer-servicios">Servicios</a><a href="#proyectos" data-testid="link-footer-proyectos">Proyectos</a><a href="#sobre-mi" data-testid="link-footer-sobre-mi">Sobre mí</a><a href="#contacto" data-testid="link-footer-contacto">Contacto</a></nav>
           </div>
           <div className="footer-bottom"><span>© {new Date().getFullYear()} PGA Estudio Digital · Alicante</span><span>Una web clara para un negocio real.</span></div>
